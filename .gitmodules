@@ -1,3 +1,6 @@
 [submodule "lib/jeffmakes-kicad-library"]
 	path = lib/jeffmakes-kicad-library
 	url = git@git.monad.is:jeffmakes/jeffmakes-kicad-library.git
+[submodule "lib/digikey-kicad-library"]
+	path = lib/digikey-kicad-library
+	url = git@github.com:digikey/digikey-kicad-library.git
