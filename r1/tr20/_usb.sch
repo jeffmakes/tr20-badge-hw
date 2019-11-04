@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:tr20-cache
+LIBS:tr19-badge-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -410,7 +411,7 @@ Wire Wire Line
 	6050 2600 6050 2450
 $Comp
 L power:+3.3V #PWR035
-U 1 1 5C4CAB2D
+U 1 1 5F62882B
 P 6050 2450
 F 0 "#PWR035" H 6050 2300 50  0001 C CNN
 F 1 "+3.3V" H 6065 2623 50  0000 C CNN
@@ -557,7 +558,7 @@ Wire Wire Line
 NoConn ~ 7550 3200
 $Comp
 L Interface_USB:CP2102N-A01-GQFN24 U1
-U 1 1 5C5F608C
+U 1 1 5F628846
 P 6950 2600
 F 0 "U1" H 7050 3550 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN24" H 7450 3450 50  0000 C CNN
