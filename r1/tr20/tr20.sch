@@ -1342,8 +1342,6 @@ Wire Wire Line
 	9600 1650 9250 1650
 Wire Wire Line
 	9600 1750 9250 1750
-Text Notes 4900 4900 0    50   ~ 0
-I2C pins can be any GPIO\nGPIO34-39 can be inputs only, no pullups/downs\nGPIO6,7,8,9,10,11 are reserved for flash chip inside WROVER\nGPIO16,17,20,24,28,29,30,31,37,38,39 are not routed out of WROVER\nRXD0=GPIO3\nTXD0=GPIO1\nSENSOR_VP = GPIO36\nSENSOR_VN = GPIO39\nGV_SIG0=IO25/ADC2_CH8\nGV_SIG1=IO26/ADC2_CH9\n
 Text Label 9250 1900 0    50   ~ 0
 RTS
 Text Label 9250 2000 0    50   ~ 0
@@ -1359,7 +1357,7 @@ SD_CMD
 Text Label 9050 4200 0    50   ~ 0
 SD_CLK
 Text Label 9050 4300 0    50   ~ 0
-IO2_SD_DAT0
+SD_DAT0
 Wire Wire Line
 	9050 4100 9600 4100
 Wire Wire Line
@@ -1367,29 +1365,29 @@ Wire Wire Line
 Wire Wire Line
 	9050 4300 9600 4300
 Wire Wire Line
-	9600 2500 9250 2500
+	9600 2500 9050 2500
 Wire Wire Line
-	9600 2650 9250 2650
+	9600 2650 9050 2650
 Wire Wire Line
-	9600 2750 9250 2750
+	9600 2750 9050 2750
 Wire Wire Line
-	9600 2850 9250 2850
+	9600 2850 9050 2850
 Wire Wire Line
-	9600 2950 9250 2950
+	9600 2950 9050 2950
 Wire Wire Line
-	9600 3100 9250 3100
-Text Label 9250 2500 0    50   ~ 0
+	9600 3100 9050 3100
+Text Label 9050 2500 0    50   ~ 0
 IO0
-Text Label 9250 2650 0    50   ~ 0
+Text Label 9050 2650 0    50   ~ 0
 MOSI
-Text Label 9250 2750 0    50   ~ 0
+Text Label 9050 2750 0    50   ~ 0
 SCK
-Text Label 9250 2850 0    50   ~ 0
-~CS~
-Text Label 9250 2950 0    50   ~ 0
+Text Label 9050 2850 0    50   ~ 0
+~DISP_CS~
+Text Label 9050 2950 0    50   ~ 0
 ~DC~
-Text Label 9250 3100 0    50   ~ 0
-BUSY
+Text Label 9050 3100 0    50   ~ 0
+DISP_BUSY
 Wire Wire Line
 	9600 3600 9250 3600
 Text Label 9250 3600 0    50   ~ 0
@@ -1417,21 +1415,19 @@ F4 "RDY" O L 9600 5750 50
 F5 "NRST" O L 9600 5850 50 
 $EndSheet
 Wire Wire Line
-	9600 5500 9250 5500
+	9600 5500 9050 5500
 Wire Wire Line
-	9250 5600 9600 5600
-Text Label 9250 5500 0    50   ~ 0
+	9050 5600 9600 5600
+Text Label 9050 5500 0    50   ~ 0
 SCL
-Text Label 9250 5600 0    50   ~ 0
+Text Label 9050 5600 0    50   ~ 0
 SDA
 Wire Wire Line
-	9250 5750 9600 5750
+	9050 5750 9600 5750
 Wire Wire Line
-	9600 5850 9250 5850
-Text Label 9250 5750 0    50   ~ 0
+	9600 5850 9450 5850
+Text Label 9050 5750 0    50   ~ 0
 IQ_RDY
-Text Label 9250 5850 0    50   ~ 0
-IQ_NRST
 Wire Wire Line
 	6850 2250 7400 2250
 Wire Wire Line
@@ -1444,4 +1440,54 @@ Wire Wire Line
 	6850 2650 7400 2650
 Wire Wire Line
 	6850 2750 7400 2750
+Text Label 5100 2250 0    50   ~ 0
+IO0
+Text Label 5100 3700 0    50   ~ 0
+TXD0
+Text Label 5100 3800 0    50   ~ 0
+RXD0
+Text Label 5100 2350 0    50   ~ 0
+SD_DAT0
+Text Label 5100 2450 0    50   ~ 0
+SDA
+Text Label 5100 2550 0    50   ~ 0
+SCL
+Text Label 5100 2650 0    50   ~ 0
+I2S_WS
+Text Label 5100 2750 0    50   ~ 0
+DISP_BUSY
+Text Label 5100 2850 0    50   ~ 0
+SD_CLK
+Text Label 5100 2950 0    50   ~ 0
+SD_CMD
+Text Label 5100 3050 0    50   ~ 0
+SCK
+Text Label 5100 3150 0    50   ~ 0
+~DISP_CS~
+Text Label 5100 3250 0    50   ~ 0
+~CC_CS~
+Text Label 5100 3350 0    50   ~ 0
+LED_DIN
+Text Label 5100 3450 0    50   ~ 0
+MOSI
+Text Label 5100 3550 0    50   ~ 0
+I2S_SD
+Text Label 7000 3550 0    50   ~ 0
+I2S_SCK
+Text Label 7000 3450 0    50   ~ 0
+~DC~
+Text Label 7000 3350 0    50   ~ 0
+32K_XP
+Text Label 7000 3250 0    50   ~ 0
+32K_XN
+Text Label 7000 3150 0    50   ~ 0
+CC_INT
+Text Label 7000 3050 0    50   ~ 0
+MISO
+Text Label 7000 2950 0    50   ~ 0
+IQ_RDY
+Text Label 7000 2850 0    50   ~ 0
+BTN_INT
+Text GLabel 9450 5850 0    50   Input ~ 0
+~IQ_RESET~
 $EndSCHEMATC
