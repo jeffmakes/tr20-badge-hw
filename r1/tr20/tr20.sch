@@ -1239,5 +1239,20 @@ S 7850 4000 800  400
 U 5DD6A7F2
 F0 "audio" 50
 F1 "audio.sch" 50
+F2 "I2S_WS" I L 7850 4100 50 
+F3 "I2S_SD" I L 7850 4200 50 
+F4 "I2S_SCK" I L 7850 4300 50 
 $EndSheet
+Wire Wire Line
+	7850 4100 7350 4100
+Wire Wire Line
+	7850 4200 7350 4200
+Wire Wire Line
+	7850 4300 7350 4300
+Text Label 7350 4100 0    50   ~ 0
+I2S_WS
+Text Label 7350 4200 0    50   ~ 0
+I2S_SD
+Text Label 7350 4300 0    50   ~ 0
+I2S_SCK
 $EndSCHEMATC

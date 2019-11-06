@@ -276,4 +276,10 @@ Wire Wire Line
 Wire Wire Line
 	5250 2800 5350 2800
 Connection ~ 5350 2800
+Text HLabel 4400 3550 0    50   Input ~ 0
+I2S_WS
+Text HLabel 4400 3650 0    50   Input ~ 0
+I2S_SD
+Text HLabel 4400 3750 0    50   Input ~ 0
+I2S_SCK
 $EndSCHEMATC
