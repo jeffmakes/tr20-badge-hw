@@ -537,6 +537,6 @@ RDY
 Wire Wire Line
 	3800 3300 3600 3300
 Connection ~ 3800 3300
-Text HLabel 3600 3300 0    50   Output ~ 0
+Text HLabel 3600 3300 0    50   Input ~ 0
 NRST
 $EndSCHEMATC
