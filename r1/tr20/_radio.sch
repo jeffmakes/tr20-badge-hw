@@ -1042,7 +1042,7 @@ Wire Wire Line
 Text HLabel 2450 1900 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
-	2450 1900 2950 1900
+	2450 1900 2650 1900
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5DE52061
@@ -1086,5 +1086,32 @@ F 2 "" H 2950 3900 50  0001 C CNN
 F 3 "" H 2950 3900 50  0001 C CNN
 	1    2950 3900
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEF437B
+P 2650 1650
+F 0 "R?" H 2720 1696 50  0000 L CNN
+F 1 "10k" H 2720 1605 50  0000 L CNN
+F 2 "" V 2580 1650 50  0001 C CNN
+F 3 "~" H 2650 1650 50  0001 C CNN
+	1    2650 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1800 2650 1900
+Connection ~ 2650 1900
+Wire Wire Line
+	2650 1900 2950 1900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DEFF2C7
+P 2650 1500
+F 0 "#PWR?" H 2650 1350 50  0001 C CNN
+F 1 "+3.3V" H 2665 1673 50  0000 C CNN
+F 2 "" H 2650 1500 50  0001 C CNN
+F 3 "" H 2650 1500 50  0001 C CNN
+	1    2650 1500
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

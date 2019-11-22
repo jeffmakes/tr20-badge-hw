@@ -172,7 +172,6 @@ NoConn ~ 3650 2550
 NoConn ~ 3650 2450
 NoConn ~ 3650 2350
 NoConn ~ 3650 2250
-NoConn ~ 3650 2050
 $Comp
 L power:GND #PWR039
 U 1 1 5C521BB2
@@ -555,8 +554,12 @@ F 8 "EG5858-ND" H 6550 3850 50  0001 L BNN "Field8"
 	1    6550 3850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3750 2150 2    50   Input ~ 0
-~IQ_RESET~
+Text GLabel 3750 2150 2    50   Output ~ 0
+IQ_RESET
 Wire Wire Line
 	3650 2150 3750 2150
+Text GLabel 3750 2050 2    50   Output ~ 0
+CC_RESET
+Wire Wire Line
+	3750 2050 3650 2050
 $EndSCHEMATC
