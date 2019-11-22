@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -100,7 +100,7 @@ F 3 "" H 1650 4950 50  0001 C CNN
 $EndComp
 Text Label 1900 4300 0    50   ~ 0
 EN
-Text Label 5100 2050 0    50   ~ 0
+Text Label 4250 1750 0    50   ~ 0
 EN
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:MMBT3904-TP Q1
@@ -209,161 +209,161 @@ IO0
 $Comp
 L Device:C C7
 U 1 1 5F628842
-P 7450 1900
-F 0 "C7" H 7565 1946 50  0000 L CNN
-F 1 "1uF 50V" H 7565 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7488 1750 50  0001 C CNN
-F 3 "~" H 7450 1900 50  0001 C CNN
-	1    7450 1900
+P 6600 1600
+F 0 "C7" H 6715 1646 50  0000 L CNN
+F 1 "1uF 50V" H 6715 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6638 1450 50  0001 C CNN
+F 3 "~" H 6600 1600 50  0001 C CNN
+	1    6600 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C9
 U 1 1 5F628843
-P 8000 1900
-F 0 "C9" H 8115 1946 50  0000 L CNN
-F 1 "100uF" H 8115 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 8038 1750 50  0001 C CNN
-F 3 "~" H 8000 1900 50  0001 C CNN
-	1    8000 1900
+P 7150 1600
+F 0 "C9" H 7265 1646 50  0000 L CNN
+F 1 "100uF" H 7265 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 7188 1450 50  0001 C CNN
+F 3 "~" H 7150 1600 50  0001 C CNN
+	1    7150 1600
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 1650 7450 1650
+	6000 1350 6600 1350
 Wire Wire Line
-	7450 1650 7450 1750
+	6600 1350 6600 1450
 Wire Wire Line
-	8000 1650 8000 1750
+	7150 1350 7150 1450
 Wire Wire Line
-	7450 1650 8000 1650
-Connection ~ 7450 1650
+	6600 1350 7150 1350
+Connection ~ 6600 1350
 $Comp
 L power:GND #PWR046
 U 1 1 5F628844
-P 8000 2150
-F 0 "#PWR046" H 8000 1900 50  0001 C CNN
-F 1 "GND" H 8005 1977 50  0000 C CNN
-F 2 "" H 8000 2150 50  0001 C CNN
-F 3 "" H 8000 2150 50  0001 C CNN
-	1    8000 2150
+P 7150 1850
+F 0 "#PWR046" H 7150 1600 50  0001 C CNN
+F 1 "GND" H 7155 1677 50  0000 C CNN
+F 2 "" H 7150 1850 50  0001 C CNN
+F 3 "" H 7150 1850 50  0001 C CNN
+	1    7150 1850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 2050 7450 2100
+	6600 1750 6600 1800
 Wire Wire Line
-	7450 2100 8000 2100
+	6600 1800 7150 1800
 Wire Wire Line
-	8000 2050 8000 2100
-Connection ~ 8000 2100
+	7150 1750 7150 1800
+Connection ~ 7150 1800
 Wire Wire Line
-	8000 2150 8000 2100
+	7150 1850 7150 1800
 $Comp
 L power:GND #PWR042
 U 1 1 5F628845
-P 7050 4000
-F 0 "#PWR042" H 7050 3750 50  0001 C CNN
-F 1 "GND" H 7055 3827 50  0000 C CNN
-F 2 "" H 7050 4000 50  0001 C CNN
-F 3 "" H 7050 4000 50  0001 C CNN
-	1    7050 4000
+P 6200 3700
+F 0 "#PWR042" H 6200 3450 50  0001 C CNN
+F 1 "GND" H 6205 3527 50  0000 C CNN
+F 2 "" H 6200 3700 50  0001 C CNN
+F 3 "" H 6200 3700 50  0001 C CNN
+	1    6200 3700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 3750 7050 3750
+	6000 3450 6200 3450
 Wire Wire Line
-	7050 3750 7050 3850
+	6200 3450 6200 3550
 Wire Wire Line
-	6850 3850 7050 3850
-Connection ~ 7050 3850
+	6000 3550 6200 3550
+Connection ~ 6200 3550
 Wire Wire Line
-	7050 3850 7050 4000
+	6200 3550 6200 3700
 Wire Wire Line
-	6850 2850 7400 2850
+	6000 2550 6550 2550
 Wire Wire Line
-	6850 2950 7400 2950
+	6000 2650 6550 2650
 Wire Wire Line
 	13050 32200 12650 32200
 Wire Wire Line
 	12650 32300 13050 32300
 Wire Wire Line
-	5650 3050 5100 3050
+	4800 2750 4250 2750
 Wire Wire Line
-	5650 3450 5100 3450
+	4800 3150 4250 3150
 Wire Wire Line
-	5100 2350 5650 2350
+	4250 2050 4800 2050
 Wire Wire Line
-	5650 2950 5100 2950
+	4800 2650 4250 2650
 Wire Wire Line
-	5650 2750 5100 2750
+	4800 2450 4250 2450
 Wire Wire Line
-	5650 3350 5100 3350
+	4800 3050 4250 3050
 Wire Wire Line
-	5650 3250 5100 3250
+	4800 2950 4250 2950
 Wire Wire Line
-	5650 3150 5100 3150
+	4800 2850 4250 2850
 Wire Wire Line
-	5650 2850 5100 2850
+	4800 2550 4250 2550
 Wire Wire Line
-	5650 2650 5100 2650
+	4800 2350 4250 2350
 Wire Wire Line
-	5100 2550 5650 2550
+	4250 2250 4800 2250
 Wire Wire Line
-	5650 2450 5100 2450
+	4800 2150 4250 2150
 $Comp
 L j_RF_Module:ESP32-WROVER-I A1
 U 1 1 5C471AB5
-P 6250 2750
-F 0 "A1" H 6250 4117 50  0000 C CNN
-F 1 "ESP32-WROVER-I" H 6250 4026 50  0000 C CNN
-F 2 "jeffmakes-footprints:ESP32-WROVER-I" H 6250 2750 50  0001 L BNN
-F 3 "Module Espressif Systems" H 6250 2750 50  0001 L BNN
-F 4 "https://www.digikey.com/product-detail/en/espressif-systems/ESP32-WROVER-I/1904-1008-1-ND/8544303?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 6250 2750 50  0001 L BNN "Field4"
-F 5 "ESP32-WROVER-I" H 6250 2750 50  0001 L BNN "Field5"
-F 6 "Module: combo; GPIO, I2C x2, I2S x2, SDIO, SPI x3, UART x3; U.FL" H 6250 2750 50  0001 L BNN "Field6"
-F 7 "Espressif Systems" H 6250 2750 50  0001 L BNN "Field7"
-F 8 "1904-1008-1-ND" H 6250 2750 50  0001 L BNN "Field8"
-	1    6250 2750
+P 5400 2450
+F 0 "A1" H 5400 3817 50  0000 C CNN
+F 1 "ESP32-WROVER-I" H 5400 3726 50  0000 C CNN
+F 2 "jeffmakes-footprints:ESP32-WROVER-I" H 5400 2450 50  0001 L BNN
+F 3 "Module Espressif Systems" H 5400 2450 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/espressif-systems/ESP32-WROVER-I/1904-1008-1-ND/8544303?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5400 2450 50  0001 L BNN "Field4"
+F 5 "ESP32-WROVER-I" H 5400 2450 50  0001 L BNN "Field5"
+F 6 "Module: combo; GPIO, I2C x2, I2S x2, SDIO, SPI x3, UART x3; U.FL" H 5400 2450 50  0001 L BNN "Field6"
+F 7 "Espressif Systems" H 5400 2450 50  0001 L BNN "Field7"
+F 8 "1904-1008-1-ND" H 5400 2450 50  0001 L BNN "Field8"
+	1    5400 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 3450 7400 3450
+	6000 3150 6550 3150
 Wire Wire Line
-	6850 3050 7400 3050
+	6000 2750 6550 2750
 Wire Wire Line
-	6850 3150 7400 3150
+	6000 2850 6550 2850
 Wire Wire Line
-	6850 3250 7400 3250
+	6000 2950 6550 2950
 NoConn ~ 1850 4450
 NoConn ~ 1850 4850
 $Comp
 L power:+3.3V #PWR045
 U 1 1 5F6288AE
-P 8000 1400
-F 0 "#PWR045" H 8000 1250 50  0001 C CNN
-F 1 "+3.3V" H 8015 1573 50  0000 C CNN
-F 2 "" H 8000 1400 50  0001 C CNN
-F 3 "" H 8000 1400 50  0001 C CNN
-	1    8000 1400
+P 7150 1100
+F 0 "#PWR045" H 7150 950 50  0001 C CNN
+F 1 "+3.3V" H 7165 1273 50  0000 C CNN
+F 2 "" H 7150 1100 50  0001 C CNN
+F 3 "" H 7150 1100 50  0001 C CNN
+	1    7150 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 8000 1650
+Connection ~ 7150 1350
 Wire Wire Line
-	7400 3550 6850 3550
+	6550 3250 6000 3250
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5F6288B0
-P 5100 3700
-F 0 "TP1" V 5100 3950 50  0000 C CNN
-F 1 "~" V 5204 3774 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 3700 50  0001 C CNN
-F 3 "~" H 5300 3700 50  0001 C CNN
-	1    5100 3700
+P 4250 3400
+F 0 "TP1" V 4250 3650 50  0000 C CNN
+F 1 "~" V 4354 3474 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 3400 50  0001 C CNN
+F 3 "~" H 4450 3400 50  0001 C CNN
+	1    4250 3400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6850 3350 7400 3350
+	6000 3050 6550 3050
 Wire Wire Line
-	5100 3700 5650 3700
+	4250 3400 4800 3400
 $Comp
 L power:+3.3V #PWR048
 U 1 1 5C4FC0F4
@@ -420,18 +420,18 @@ Text Label 3200 6850 1    50   ~ 0
 SDA
 Text Label 3500 6850 1    50   ~ 0
 SCL
-Text Label 6950 2750 0    50   ~ 0
+Text Label 6100 2450 0    50   ~ 0
 _reserved6
-Text Label 6950 2650 0    50   ~ 0
+Text Label 6100 2350 0    50   ~ 0
 _reserved11
-Text Label 6950 2250 0    50   ~ 0
+Text Label 6100 1950 0    50   ~ 0
 _reserved7
 Wire Wire Line
-	5100 2250 5650 2250
+	4250 1950 4800 1950
 Wire Wire Line
-	5100 2050 5650 2050
+	4250 1750 4800 1750
 Wire Wire Line
-	5100 3800 5650 3800
+	4250 3500 4800 3500
 $Comp
 L Device:Crystal Y1
 U 1 1 5CBFE2B2
@@ -516,347 +516,347 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5F62888E
-P 5100 3800
-F 0 "TP2" V 5100 4050 50  0000 C CNN
-F 1 "~" V 5204 3874 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 3800 50  0001 C CNN
-F 3 "~" H 5300 3800 50  0001 C CNN
-	1    5100 3800
+P 4250 3500
+F 0 "TP2" V 4250 3750 50  0000 C CNN
+F 1 "~" V 4354 3574 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 3500 50  0001 C CNN
+F 3 "~" H 4450 3500 50  0001 C CNN
+	1    4250 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5DC547C5
-P 5100 2050
-F 0 "TP3" V 5100 2300 50  0000 C CNN
-F 1 "~" V 5204 2124 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2050 50  0001 C CNN
-F 3 "~" H 5300 2050 50  0001 C CNN
-	1    5100 2050
+P 4250 1750
+F 0 "TP3" V 4250 2000 50  0000 C CNN
+F 1 "~" V 4354 1824 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 1750 50  0001 C CNN
+F 3 "~" H 4450 1750 50  0001 C CNN
+	1    4250 1750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5DC549E4
-P 5100 2250
-F 0 "TP4" V 5100 2500 50  0000 C CNN
-F 1 "~" V 5204 2324 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2250 50  0001 C CNN
-F 3 "~" H 5300 2250 50  0001 C CNN
-	1    5100 2250
+P 4250 1950
+F 0 "TP4" V 4250 2200 50  0000 C CNN
+F 1 "~" V 4354 2024 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 1950 50  0001 C CNN
+F 3 "~" H 4450 1950 50  0001 C CNN
+	1    4250 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5DC550C4
-P 5100 2350
-F 0 "TP5" V 5100 2600 50  0000 C CNN
-F 1 "~" V 5204 2424 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2350 50  0001 C CNN
-F 3 "~" H 5300 2350 50  0001 C CNN
-	1    5100 2350
+P 4250 2050
+F 0 "TP5" V 4250 2300 50  0000 C CNN
+F 1 "~" V 4354 2124 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2050 50  0001 C CNN
+F 3 "~" H 4450 2050 50  0001 C CNN
+	1    4250 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5DC551A2
-P 5100 2450
-F 0 "TP6" V 5100 2700 50  0000 C CNN
-F 1 "~" V 5204 2524 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2450 50  0001 C CNN
-F 3 "~" H 5300 2450 50  0001 C CNN
-	1    5100 2450
+P 4250 2150
+F 0 "TP6" V 4250 2400 50  0000 C CNN
+F 1 "~" V 4354 2224 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2150 50  0001 C CNN
+F 3 "~" H 4450 2150 50  0001 C CNN
+	1    4250 2150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5DC55584
-P 5100 2550
-F 0 "TP7" V 5100 2800 50  0000 C CNN
-F 1 "~" V 5204 2624 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2550 50  0001 C CNN
-F 3 "~" H 5300 2550 50  0001 C CNN
-	1    5100 2550
+P 4250 2250
+F 0 "TP7" V 4250 2500 50  0000 C CNN
+F 1 "~" V 4354 2324 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2250 50  0001 C CNN
+F 3 "~" H 4450 2250 50  0001 C CNN
+	1    4250 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5F628894
-P 5100 2650
-F 0 "TP8" V 5100 2900 50  0000 C CNN
-F 1 "~" V 5204 2724 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2650 50  0001 C CNN
-F 3 "~" H 5300 2650 50  0001 C CNN
-	1    5100 2650
+P 4250 2350
+F 0 "TP8" V 4250 2600 50  0000 C CNN
+F 1 "~" V 4354 2424 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2350 50  0001 C CNN
+F 3 "~" H 4450 2350 50  0001 C CNN
+	1    4250 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5F628895
-P 5100 2750
-F 0 "TP9" V 5100 3000 50  0000 C CNN
-F 1 "~" V 5204 2824 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2750 50  0001 C CNN
-F 3 "~" H 5300 2750 50  0001 C CNN
-	1    5100 2750
+P 4250 2450
+F 0 "TP9" V 4250 2700 50  0000 C CNN
+F 1 "~" V 4354 2524 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2450 50  0001 C CNN
+F 3 "~" H 4450 2450 50  0001 C CNN
+	1    4250 2450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP10
 U 1 1 5F628896
-P 5100 2850
-F 0 "TP10" V 5100 3100 50  0000 C CNN
-F 1 "~" V 5204 2924 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2850 50  0001 C CNN
-F 3 "~" H 5300 2850 50  0001 C CNN
-	1    5100 2850
+P 4250 2550
+F 0 "TP10" V 4250 2800 50  0000 C CNN
+F 1 "~" V 4354 2624 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2550 50  0001 C CNN
+F 3 "~" H 4450 2550 50  0001 C CNN
+	1    4250 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP11
 U 1 1 5DC55918
-P 5100 2950
-F 0 "TP11" V 5100 3200 50  0000 C CNN
-F 1 "~" V 5204 3024 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 2950 50  0001 C CNN
-F 3 "~" H 5300 2950 50  0001 C CNN
-	1    5100 2950
+P 4250 2650
+F 0 "TP11" V 4250 2900 50  0000 C CNN
+F 1 "~" V 4354 2724 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2650 50  0001 C CNN
+F 3 "~" H 4450 2650 50  0001 C CNN
+	1    4250 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP12
 U 1 1 5DC55A06
-P 5100 3050
-F 0 "TP12" V 5100 3300 50  0000 C CNN
-F 1 "~" V 5204 3124 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 3050 50  0001 C CNN
-F 3 "~" H 5300 3050 50  0001 C CNN
-	1    5100 3050
+P 4250 2750
+F 0 "TP12" V 4250 3000 50  0000 C CNN
+F 1 "~" V 4354 2824 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2750 50  0001 C CNN
+F 3 "~" H 4450 2750 50  0001 C CNN
+	1    4250 2750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP13
 U 1 1 5DC55AF2
-P 5100 3150
-F 0 "TP13" V 5100 3400 50  0000 C CNN
-F 1 "~" V 5204 3224 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 3150 50  0001 C CNN
-F 3 "~" H 5300 3150 50  0001 C CNN
-	1    5100 3150
+P 4250 2850
+F 0 "TP13" V 4250 3100 50  0000 C CNN
+F 1 "~" V 4354 2924 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2850 50  0001 C CNN
+F 3 "~" H 4450 2850 50  0001 C CNN
+	1    4250 2850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP14
 U 1 1 5DC55D43
-P 5100 3250
-F 0 "TP14" V 5100 3500 50  0000 C CNN
-F 1 "~" V 5204 3324 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 3250 50  0001 C CNN
-F 3 "~" H 5300 3250 50  0001 C CNN
-	1    5100 3250
+P 4250 2950
+F 0 "TP14" V 4250 3200 50  0000 C CNN
+F 1 "~" V 4354 3024 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 2950 50  0001 C CNN
+F 3 "~" H 4450 2950 50  0001 C CNN
+	1    4250 2950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP15
 U 1 1 5F62889B
-P 5100 3350
-F 0 "TP15" V 5100 3600 50  0000 C CNN
-F 1 "~" V 5204 3424 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 3350 50  0001 C CNN
-F 3 "~" H 5300 3350 50  0001 C CNN
-	1    5100 3350
+P 4250 3050
+F 0 "TP15" V 4250 3300 50  0000 C CNN
+F 1 "~" V 4354 3124 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 3050 50  0001 C CNN
+F 3 "~" H 4450 3050 50  0001 C CNN
+	1    4250 3050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP16
 U 1 1 5DC55F2D
-P 5100 3450
-F 0 "TP16" V 5100 3700 50  0000 C CNN
-F 1 "~" V 5204 3524 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 3450 50  0001 C CNN
-F 3 "~" H 5300 3450 50  0001 C CNN
-	1    5100 3450
+P 4250 3150
+F 0 "TP16" V 4250 3400 50  0000 C CNN
+F 1 "~" V 4354 3224 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 3150 50  0001 C CNN
+F 3 "~" H 4450 3150 50  0001 C CNN
+	1    4250 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP17
 U 1 1 5F62889D
-P 5100 3550
-F 0 "TP17" V 5100 3800 50  0000 C CNN
-F 1 "~" V 5204 3624 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 5300 3550 50  0001 C CNN
-F 3 "~" H 5300 3550 50  0001 C CNN
-	1    5100 3550
+P 4250 3250
+F 0 "TP17" V 4250 3500 50  0000 C CNN
+F 1 "~" V 4354 3324 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4450 3250 50  0001 C CNN
+F 3 "~" H 4450 3250 50  0001 C CNN
+	1    4250 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP18
 U 1 1 5F62889E
-P 7400 2250
-F 0 "TP18" V 7400 2500 50  0000 C CNN
-F 1 "~" V 7504 2324 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 2250 50  0001 C CNN
-F 3 "~" H 7600 2250 50  0001 C CNN
-	1    7400 2250
+P 6550 1950
+F 0 "TP18" V 6550 2200 50  0000 C CNN
+F 1 "~" V 6654 2024 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 1950 50  0001 C CNN
+F 3 "~" H 6750 1950 50  0001 C CNN
+	1    6550 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP19
 U 1 1 5F62889F
-P 7400 2350
-F 0 "TP19" V 7400 2600 50  0000 C CNN
-F 1 "~" V 7504 2424 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 2350 50  0001 C CNN
-F 3 "~" H 7600 2350 50  0001 C CNN
-	1    7400 2350
+P 6550 2050
+F 0 "TP19" V 6550 2300 50  0000 C CNN
+F 1 "~" V 6654 2124 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2050 50  0001 C CNN
+F 3 "~" H 6750 2050 50  0001 C CNN
+	1    6550 2050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP21
 U 1 1 5F6288A1
-P 7400 2550
-F 0 "TP21" V 7400 2800 50  0000 C CNN
-F 1 "~" V 7504 2624 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 2550 50  0001 C CNN
-F 3 "~" H 7600 2550 50  0001 C CNN
-	1    7400 2550
+P 6550 2250
+F 0 "TP21" V 6550 2500 50  0000 C CNN
+F 1 "~" V 6654 2324 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2250 50  0001 C CNN
+F 3 "~" H 6750 2250 50  0001 C CNN
+	1    6550 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP22
 U 1 1 5F6288A2
-P 7400 2650
-F 0 "TP22" V 7400 2900 50  0000 C CNN
-F 1 "~" V 7504 2724 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 2650 50  0001 C CNN
-F 3 "~" H 7600 2650 50  0001 C CNN
-	1    7400 2650
+P 6550 2350
+F 0 "TP22" V 6550 2600 50  0000 C CNN
+F 1 "~" V 6654 2424 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2350 50  0001 C CNN
+F 3 "~" H 6750 2350 50  0001 C CNN
+	1    6550 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP23
 U 1 1 5DC57110
-P 7400 2750
-F 0 "TP23" V 7400 3000 50  0000 C CNN
-F 1 "~" V 7504 2824 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 2750 50  0001 C CNN
-F 3 "~" H 7600 2750 50  0001 C CNN
-	1    7400 2750
+P 6550 2450
+F 0 "TP23" V 6550 2700 50  0000 C CNN
+F 1 "~" V 6654 2524 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2450 50  0001 C CNN
+F 3 "~" H 6750 2450 50  0001 C CNN
+	1    6550 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP24
 U 1 1 5F6288A4
-P 7400 2850
-F 0 "TP24" V 7400 3100 50  0000 C CNN
-F 1 "~" V 7504 2924 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 2850 50  0001 C CNN
-F 3 "~" H 7600 2850 50  0001 C CNN
-	1    7400 2850
+P 6550 2550
+F 0 "TP24" V 6550 2800 50  0000 C CNN
+F 1 "~" V 6654 2624 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2550 50  0001 C CNN
+F 3 "~" H 6750 2550 50  0001 C CNN
+	1    6550 2550
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP25
 U 1 1 5DC57316
-P 7400 2950
-F 0 "TP25" V 7400 3200 50  0000 C CNN
-F 1 "~" V 7504 3024 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 2950 50  0001 C CNN
-F 3 "~" H 7600 2950 50  0001 C CNN
-	1    7400 2950
+P 6550 2650
+F 0 "TP25" V 6550 2900 50  0000 C CNN
+F 1 "~" V 6654 2724 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2650 50  0001 C CNN
+F 3 "~" H 6750 2650 50  0001 C CNN
+	1    6550 2650
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP26
 U 1 1 5DC5741C
-P 7400 3050
-F 0 "TP26" V 7400 3300 50  0000 C CNN
-F 1 "~" V 7504 3124 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 3050 50  0001 C CNN
-F 3 "~" H 7600 3050 50  0001 C CNN
-	1    7400 3050
+P 6550 2750
+F 0 "TP26" V 6550 3000 50  0000 C CNN
+F 1 "~" V 6654 2824 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2750 50  0001 C CNN
+F 3 "~" H 6750 2750 50  0001 C CNN
+	1    6550 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP27
 U 1 1 5F6288A7
-P 7400 3150
-F 0 "TP27" V 7400 3400 50  0000 C CNN
-F 1 "~" V 7504 3224 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 3150 50  0001 C CNN
-F 3 "~" H 7600 3150 50  0001 C CNN
-	1    7400 3150
+P 6550 2850
+F 0 "TP27" V 6550 3100 50  0000 C CNN
+F 1 "~" V 6654 2924 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2850 50  0001 C CNN
+F 3 "~" H 6750 2850 50  0001 C CNN
+	1    6550 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP28
 U 1 1 5DC5762E
-P 7400 3250
-F 0 "TP28" V 7400 3500 50  0000 C CNN
-F 1 "~" V 7504 3324 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 3250 50  0001 C CNN
-F 3 "~" H 7600 3250 50  0001 C CNN
-	1    7400 3250
+P 6550 2950
+F 0 "TP28" V 6550 3200 50  0000 C CNN
+F 1 "~" V 6654 3024 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2950 50  0001 C CNN
+F 3 "~" H 6750 2950 50  0001 C CNN
+	1    6550 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP29
 U 1 1 5DC5773A
-P 7400 3350
-F 0 "TP29" V 7400 3600 50  0000 C CNN
-F 1 "~" V 7504 3424 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 3350 50  0001 C CNN
-F 3 "~" H 7600 3350 50  0001 C CNN
-	1    7400 3350
+P 6550 3050
+F 0 "TP29" V 6550 3300 50  0000 C CNN
+F 1 "~" V 6654 3124 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 3050 50  0001 C CNN
+F 3 "~" H 6750 3050 50  0001 C CNN
+	1    6550 3050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP30
 U 1 1 5DC57848
-P 7400 3450
-F 0 "TP30" V 7400 3700 50  0000 C CNN
-F 1 "~" V 7504 3524 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 3450 50  0001 C CNN
-F 3 "~" H 7600 3450 50  0001 C CNN
-	1    7400 3450
+P 6550 3150
+F 0 "TP30" V 6550 3400 50  0000 C CNN
+F 1 "~" V 6654 3224 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 3150 50  0001 C CNN
+F 3 "~" H 6750 3150 50  0001 C CNN
+	1    6550 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP31
 U 1 1 5DC57958
-P 7400 3550
-F 0 "TP31" V 7400 3800 50  0000 C CNN
-F 1 "~" V 7504 3624 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 3550 50  0001 C CNN
-F 3 "~" H 7600 3550 50  0001 C CNN
-	1    7400 3550
+P 6550 3250
+F 0 "TP31" V 6550 3500 50  0000 C CNN
+F 1 "~" V 6654 3324 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 3250 50  0001 C CNN
+F 3 "~" H 6750 3250 50  0001 C CNN
+	1    6550 3250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5100 3550 5650 3550
+	4250 3250 4800 3250
 Wire Wire Line
-	8000 1400 8000 1550
+	7150 1100 7150 1250
 $Comp
 L Connector:TestPoint TP35
 U 1 1 5F6288AC
-P 8050 1550
-F 0 "TP35" V 8050 1800 50  0000 C CNN
-F 1 "~" V 8154 1624 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 8250 1550 50  0001 C CNN
-F 3 "~" H 8250 1550 50  0001 C CNN
-	1    8050 1550
+P 7200 1250
+F 0 "TP35" V 7200 1500 50  0000 C CNN
+F 1 "~" V 7304 1324 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7400 1250 50  0001 C CNN
+F 3 "~" H 7400 1250 50  0001 C CNN
+	1    7200 1250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8050 1550 8000 1550
-Connection ~ 8000 1550
+	7200 1250 7150 1250
+Connection ~ 7150 1250
 Wire Wire Line
-	8000 1550 8000 1650
-Text Label 6950 2550 0    50   ~ 0
+	7150 1250 7150 1350
+Text Label 6100 2250 0    50   ~ 0
 _reserved10
-Text Label 6950 2450 0    50   ~ 0
+Text Label 6100 2150 0    50   ~ 0
 _reserved9
-Text Label 6950 2350 0    50   ~ 0
+Text Label 6100 2050 0    50   ~ 0
 _reserved8
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:MMBT3904-TP Q6
@@ -998,12 +998,12 @@ $EndSheet
 $Comp
 L Connector:TestPoint TP20
 U 1 1 5F6288A0
-P 7400 2450
-F 0 "TP20" V 7400 2700 50  0000 C CNN
-F 1 "~" V 7504 2524 50  0001 C CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 7600 2450 50  0001 C CNN
-F 3 "~" H 7600 2450 50  0001 C CNN
-	1    7400 2450
+P 6550 2150
+F 0 "TP20" V 6550 2400 50  0000 C CNN
+F 1 "~" V 6654 2224 50  0001 C CNN
+F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 6750 2150 50  0001 C CNN
+F 3 "~" H 6750 2150 50  0001 C CNN
+	1    6550 2150
 	0    1    1    0   
 $EndComp
 $Sheet
@@ -1119,7 +1119,7 @@ F1 "_touchpad.sch" 50
 F2 "SDA" B L 9600 5600 50 
 F3 "SCL" I L 9600 5500 50 
 F4 "RDY" O L 9600 5750 50 
-F5 "NRST" O L 9600 5850 50 
+F5 "NRST" I L 9600 5850 50 
 $EndSheet
 Wire Wire Line
 	9600 5500 9050 5500
@@ -1136,123 +1136,154 @@ Wire Wire Line
 Text Label 9050 5750 0    50   ~ 0
 IQ_RDY
 Wire Wire Line
-	6850 2250 7400 2250
+	6000 1950 6550 1950
 Wire Wire Line
-	6850 2350 7400 2350
+	6000 2050 6550 2050
 Wire Wire Line
-	6850 2450 7400 2450
+	6000 2150 6550 2150
 Wire Wire Line
-	6850 2550 7400 2550
+	6000 2250 6550 2250
 Wire Wire Line
-	6850 2650 7400 2650
+	6000 2350 6550 2350
 Wire Wire Line
-	6850 2750 7400 2750
-Text Label 5100 2250 0    50   ~ 0
+	6000 2450 6550 2450
+Text Label 4250 1950 0    50   ~ 0
 IO0
-Text Label 5100 3700 0    50   ~ 0
+Text Label 4250 3400 0    50   ~ 0
 TXD0
-Text Label 5100 3800 0    50   ~ 0
+Text Label 4250 3500 0    50   ~ 0
 RXD0
-Text Label 5100 2350 0    50   ~ 0
+Text Label 4250 2050 0    50   ~ 0
 SD_DAT0
-Text Label 5100 2450 0    50   ~ 0
+Text Label 4250 2150 0    50   ~ 0
 SDA
-Text Label 5100 2550 0    50   ~ 0
+Text Label 4250 2250 0    50   ~ 0
 SCL
-Text Label 5100 2650 0    50   ~ 0
+Text Label 4250 2350 0    50   ~ 0
 I2S_WS
-Text Label 5100 2750 0    50   ~ 0
+Text Label 4250 2450 0    50   ~ 0
 DISP_BUSY
-Text Label 5100 2850 0    50   ~ 0
+Text Label 4250 2550 0    50   ~ 0
 SD_CLK
-Text Label 5100 2950 0    50   ~ 0
+Text Label 4250 2650 0    50   ~ 0
 SD_CMD
-Text Label 5100 3050 0    50   ~ 0
+Text Label 4250 2750 0    50   ~ 0
 SCK
-Text Label 5100 3150 0    50   ~ 0
+Text Label 4250 2850 0    50   ~ 0
 ~DISP_CS~
-Text Label 5100 3250 0    50   ~ 0
+Text Label 4250 2950 0    50   ~ 0
 ~CC_CS~
-Text Label 5100 3350 0    50   ~ 0
+Text Label 4250 3050 0    50   ~ 0
 LED_DIN
-Text Label 5100 3450 0    50   ~ 0
+Text Label 4250 3150 0    50   ~ 0
 MOSI
-Text Label 5100 3550 0    50   ~ 0
+Text Label 4250 3250 0    50   ~ 0
 I2S_SD
-Text Label 7000 3550 0    50   ~ 0
+Text Label 6150 3250 0    50   ~ 0
 I2S_SCK
-Text Label 7000 3450 0    50   ~ 0
+Text Label 6150 3150 0    50   ~ 0
 ~DC~
-Text Label 7000 3350 0    50   ~ 0
+Text Label 6150 3050 0    50   ~ 0
 32K_XP
-Text Label 7000 3250 0    50   ~ 0
+Text Label 6150 2950 0    50   ~ 0
 32K_XN
-Text Label 7000 3150 0    50   ~ 0
+Text Label 6150 2850 0    50   ~ 0
 CC_INT
-Text Label 7000 3050 0    50   ~ 0
+Text Label 6150 2750 0    50   ~ 0
 MISO
-Text Label 7000 2950 0    50   ~ 0
+Text Label 6150 2650 0    50   ~ 0
 IQ_RDY
-Text Label 7000 2850 0    50   ~ 0
+Text Label 6150 2550 0    50   ~ 0
 BTN_INT
 Text GLabel 9450 5850 0    50   Input ~ 0
-~IQ_RESET~
+IQ_RESET
 $Sheet
-S 7850 4700 800  300 
+S 7950 4050 800  300 
 U 5DCC33E4
 F0 "shitty_addon" 50
-F1 "shitty_addon.sch" 50
-F2 "SDA" B L 7850 4900 50 
-F3 "SCL" I L 7850 4800 50 
+F1 "_shitty_addon.sch" 50
+F2 "SDA" B L 7950 4250 50 
+F3 "SCL" I L 7950 4150 50 
 $EndSheet
 Wire Wire Line
-	7850 4800 7350 4800
+	7950 4150 7450 4150
 Wire Wire Line
-	7900 4900 7350 4900
-Text Label 7350 4800 0    50   ~ 0
+	8000 4250 7450 4250
+Text Label 7450 4150 0    50   ~ 0
 SCL
-Text Label 7350 4900 0    50   ~ 0
+Text Label 7450 4250 0    50   ~ 0
 SDA
 $Sheet
-S 7850 5350 800  450 
+S 7950 4650 800  450 
 U 5DD07E52
 F0 "accelerometer" 50
-F1 "accelerometer.sch" 50
-F2 "INT" O L 7850 5700 50 
-F3 "SCL" I L 7850 5450 50 
-F4 "SDA" B L 7850 5550 50 
+F1 "_accelerometer.sch" 50
+F2 "INT" O L 7950 5000 50 
+F3 "SCL" I L 7950 4750 50 
+F4 "SDA" B L 7950 4850 50 
 $EndSheet
 Wire Wire Line
-	7850 5450 7350 5450
+	7950 4750 7450 4750
 Wire Wire Line
-	7850 5550 7350 5550
-Text Label 7350 5450 0    50   ~ 0
+	7950 4850 7450 4850
+Text Label 7450 4750 0    50   ~ 0
 SCL
-Text Label 7350 5550 0    50   ~ 0
+Text Label 7450 4850 0    50   ~ 0
 SDA
-Text GLabel 7750 5700 0    50   Output ~ 0
+Text GLabel 7850 5000 0    50   Output ~ 0
 ACCEL_INT
 Wire Wire Line
-	7750 5700 7850 5700
+	7850 5000 7950 5000
 $Sheet
-S 7850 4000 800  400 
+S 7950 3350 800  400 
 U 5DD6A7F2
 F0 "audio" 50
-F1 "audio.sch" 50
-F2 "I2S_WS" I L 7850 4100 50 
-F3 "I2S_SD" I L 7850 4200 50 
-F4 "I2S_SCK" I L 7850 4300 50 
+F1 "_audio.sch" 50
+F2 "I2S_WS" I L 7950 3450 50 
+F3 "I2S_SD" I L 7950 3550 50 
+F4 "I2S_SCK" I L 7950 3650 50 
 $EndSheet
 Wire Wire Line
-	7850 4100 7350 4100
+	7950 3450 7450 3450
 Wire Wire Line
-	7850 4200 7350 4200
+	7950 3550 7450 3550
 Wire Wire Line
-	7850 4300 7350 4300
-Text Label 7350 4100 0    50   ~ 0
+	7950 3650 7450 3650
+Text Label 7450 3450 0    50   ~ 0
 I2S_WS
-Text Label 7350 4200 0    50   ~ 0
+Text Label 7450 3550 0    50   ~ 0
 I2S_SD
-Text Label 7350 4300 0    50   ~ 0
+Text Label 7450 3650 0    50   ~ 0
 I2S_SCK
+$Sheet
+S 7950 5400 800  650 
+U 5DDB5F59
+F0 "radio" 50
+F1 "_radio.sch" 50
+F2 "MOSI" I L 7950 5650 50 
+F3 "MISO" O L 7950 5750 50 
+F4 "~CS" I L 7950 5950 50 
+F5 "SCK" I L 7950 5850 50 
+F6 "~RESET" I L 7950 5500 50 
+$EndSheet
+Text GLabel 7850 5500 0    50   Input ~ 0
+CC_RESET
+Wire Wire Line
+	7850 5500 7950 5500
+Wire Wire Line
+	7950 5650 7450 5650
+Wire Wire Line
+	7950 5750 7450 5750
+Wire Wire Line
+	7950 5850 7450 5850
+Wire Wire Line
+	7950 5950 7450 5950
+Text Label 7450 5650 0    50   ~ 0
+MOSI
+Text Label 7450 5750 0    50   ~ 0
+MISO
+Text Label 7450 5850 0    50   ~ 0
+SCK
+Text Label 7450 5950 0    50   ~ 0
+~CC_CS~
 $EndSCHEMATC
