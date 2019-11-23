@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 13
+Sheet 5 12
 Title ""
 Date ""
 Rev ""
@@ -115,7 +115,6 @@ Wire Wire Line
 	5700 3000 5700 2950
 NoConn ~ 5800 3550
 NoConn ~ 5800 4250
-NoConn ~ 5800 4350
 NoConn ~ 5800 4450
 $Comp
 L Device:R R?
@@ -232,4 +231,8 @@ Text HLabel 3800 3950 0    50   Input ~ 0
 CLK
 Text HLabel 3800 4150 0    50   BiDi ~ 0
 DAT0
+Wire Wire Line
+	5800 4350 3800 4350
+Text HLabel 3800 4350 0    50   Output ~ 0
+CD
 $EndSCHEMATC

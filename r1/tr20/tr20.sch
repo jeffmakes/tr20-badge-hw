@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -898,7 +898,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 6100 2300 6200
 Text Label 2400 6200 0    50   ~ 0
-IO2_SD_DAT0
+SD_DAT0
 Wire Wire Line
 	1350 4950 1350 5650
 Connection ~ 1350 4950
@@ -910,7 +910,7 @@ Connection ~ 1250 5200
 Wire Wire Line
 	1250 5200 1050 5200
 Wire Wire Line
-	2300 6200 2900 6200
+	2300 6200 2700 6200
 $Comp
 L dk_Tactile-Switches:PTS645SM43SMTR92_LFS S1
 U 1 1 5DE81CA2
@@ -1016,13 +1016,14 @@ F3 "SDA" B L 9550 2200 50
 F4 "BTN_INT" O L 9550 2350 50 
 $EndSheet
 $Sheet
-S 9550 1300 800  400 
+S 9550 1300 800  500 
 U 5E488944
 F0 "micro_sd" 50
 F1 "_micro_sd.sch" 50
 F2 "CMD" I L 9550 1400 50 
 F3 "CLK" I L 9550 1500 50 
 F4 "DAT0" B L 9550 1600 50 
+F5 "CD" O L 9550 1700 50 
 $EndSheet
 $Sheet
 S 7700 2750 800  800 
@@ -1214,27 +1215,6 @@ SCL
 Text Label 7250 4800 0    50   ~ 0
 SDA
 $Sheet
-S 7700 5200 800  450 
-U 5DD07E52
-F0 "accelerometer" 50
-F1 "_accelerometer.sch" 50
-F2 "INT" O L 7700 5550 50 
-F3 "SCL" I L 7700 5300 50 
-F4 "SDA" B L 7700 5400 50 
-$EndSheet
-Wire Wire Line
-	7700 5300 7250 5300
-Wire Wire Line
-	7700 5400 7250 5400
-Text Label 7250 5300 0    50   ~ 0
-SCL
-Text Label 7250 5400 0    50   ~ 0
-SDA
-Text GLabel 7650 5550 0    50   Output ~ 0
-ACCEL_INT
-Wire Wire Line
-	7650 5550 7700 5550
-$Sheet
 S 7700 3900 800  400 
 U 5DD6A7F2
 F0 "audio" 50
@@ -1307,4 +1287,8 @@ Wire Wire Line
 	9550 4300 9100 4300
 Text Label 9100 4300 0    50   ~ 0
 CC_INT
+Wire Wire Line
+	9550 1700 9500 1700
+Text GLabel 9500 1700 0    50   Input ~ 0
+SD_DETECT
 $EndSCHEMATC
