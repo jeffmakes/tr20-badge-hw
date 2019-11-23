@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 13
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -201,10 +201,6 @@ Wire Wire Line
 Connection ~ 6000 4850
 Connection ~ 6400 4850
 Wire Wire Line
-	5850 3550 7000 3550
-Wire Wire Line
-	5850 3650 7000 3650
-Wire Wire Line
 	4850 3550 4400 3550
 Text Label 4400 3550 0    50   ~ 0
 I2S_WS
@@ -282,4 +278,86 @@ Text HLabel 4400 3650 0    50   Input ~ 0
 I2S_SD
 Text HLabel 4400 3750 0    50   Input ~ 0
 I2S_SCK
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 5E433B48
+P 7800 3650
+F 0 "J?" H 7520 3583 50  0000 R CNN
+F 1 "AudioJack3" H 7520 3674 50  0000 R CNN
+F 2 "" H 7800 3650 50  0001 C CNN
+F 3 "~" H 7800 3650 50  0001 C CNN
+	1    7800 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 3550 7250 3550
+Wire Wire Line
+	5850 3650 6950 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5E4364B9
+P 7500 4300
+F 0 "#PWR?" H 7500 4050 50  0001 C CNN
+F 1 "GND" H 7505 4127 50  0000 C CNN
+F 2 "" H 7500 4300 50  0001 C CNN
+F 3 "" H 7500 4300 50  0001 C CNN
+	1    7500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4300 7500 4250
+Wire Wire Line
+	7500 3750 7600 3750
+$Comp
+L Device:D_TVS D?
+U 1 1 5E43C058
+P 7250 3900
+AR Path="/5E43C058" Ref="D?"  Part="1" 
+AR Path="/5DCC33E4/5E43C058" Ref="D?"  Part="1" 
+AR Path="/5DD6A7F2/5E43C058" Ref="D?"  Part="1" 
+F 0 "D?" H 7250 4000 50  0000 L CNN
+F 1 " ESD5Z6.0T5G" H 7050 4100 50  0000 L CNN
+F 2 "jeffmakes-footprints:SOD-523-numbered-pads" H 7250 3900 50  0001 C CNN
+F 3 "~" H 7250 3900 50  0001 C CNN
+F 4 "ESD5Z5.0VC" V 7250 3900 50  0001 C CNN "MPN"
+	1    7250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 5E44BED9
+P 6950 3900
+AR Path="/5E44BED9" Ref="D?"  Part="1" 
+AR Path="/5DCC33E4/5E44BED9" Ref="D?"  Part="1" 
+AR Path="/5DD6A7F2/5E44BED9" Ref="D?"  Part="1" 
+F 0 "D?" H 6950 4000 50  0000 L CNN
+F 1 " ESD5Z6.0T5G" H 6750 4100 50  0000 L CNN
+F 2 "jeffmakes-footprints:SOD-523-numbered-pads" H 6950 3900 50  0001 C CNN
+F 3 "~" H 6950 3900 50  0001 C CNN
+F 4 "ESD5Z5.0VC" V 6950 3900 50  0001 C CNN "MPN"
+	1    6950 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4050 7250 4250
+Wire Wire Line
+	7250 4250 7500 4250
+Connection ~ 7500 4250
+Wire Wire Line
+	7500 4250 7500 3750
+Wire Wire Line
+	6950 4050 6950 4250
+Wire Wire Line
+	6950 4250 7250 4250
+Connection ~ 7250 4250
+Connection ~ 6950 3650
+Wire Wire Line
+	6950 3650 7600 3650
+Wire Wire Line
+	6950 3650 6950 3750
+Wire Wire Line
+	7250 3750 7250 3550
+Connection ~ 7250 3550
+Wire Wire Line
+	7250 3550 7600 3550
 $EndSCHEMATC
