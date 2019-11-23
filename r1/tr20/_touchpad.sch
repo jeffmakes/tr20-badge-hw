@@ -79,14 +79,6 @@ Tx13
 Text Label 4300 5400 0    50   ~ 0
 Tx14
 Wire Wire Line
-	6500 3050 6750 3050
-Wire Wire Line
-	6500 3150 6750 3150
-Wire Wire Line
-	6500 3250 6750 3250
-Wire Wire Line
-	6500 3350 6750 3350
-Wire Wire Line
 	6500 3450 6750 3450
 Wire Wire Line
 	6500 3550 6750 3550
@@ -98,14 +90,6 @@ Wire Wire Line
 	6500 3850 6750 3850
 Wire Wire Line
 	6500 3950 6750 3950
-Text Label 6550 3050 0    50   ~ 0
-Rx0A
-Text Label 6550 3150 0    50   ~ 0
-Rx1A
-Text Label 6550 3250 0    50   ~ 0
-Rx2A
-Text Label 6550 3350 0    50   ~ 0
-Rx3A
 Text Label 6550 3450 0    50   ~ 0
 Rx4A
 Text Label 6550 3550 0    50   ~ 0
@@ -384,17 +368,6 @@ NoConn ~ 2450 3050
 NoConn ~ 2450 3150
 NoConn ~ 1950 3050
 $Comp
-L j_Sensor_Touch:tr19_touch_array XY1
-U 1 1 5D2F7B55
-P 8300 4900
-F 0 "XY1" H 9228 5028 50  0000 L CNN
-F 1 "tr19_touch_array" H 9228 4937 50  0000 L CNN
-F 2 "jeffmakes-footprints:electrode-array-2" H 8300 4900 50  0001 R CNN
-F 3 "" H 8300 4900 50  0001 C CNN
-	1    8300 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L j_Sensor_Touch:IQS550 U6
 U 1 1 5CB7CEED
 P 5550 3900
@@ -457,14 +430,6 @@ Wire Wire Line
 	7400 4900 7150 4900
 Wire Wire Line
 	7400 5000 7150 5000
-Wire Wire Line
-	7400 5100 7150 5100
-Wire Wire Line
-	7400 5200 7150 5200
-Wire Wire Line
-	7400 5300 7150 5300
-Wire Wire Line
-	7400 5400 7150 5400
 Text Label 7150 4500 0    50   ~ 0
 Rx9A
 Text Label 7150 4600 0    50   ~ 0
@@ -477,14 +442,6 @@ Text Label 7150 4900 0    50   ~ 0
 Rx5A
 Text Label 7150 5000 0    50   ~ 0
 Rx4A
-Text Label 7150 5100 0    50   ~ 0
-Rx3A
-Text Label 7150 5200 0    50   ~ 0
-Rx2A
-Text Label 7150 5300 0    50   ~ 0
-Rx1A
-Text Label 7150 5400 0    50   ~ 0
-Rx0A
 Text Label 7700 4050 1    50   ~ 0
 Tx10
 Text Label 7800 4050 1    50   ~ 0
@@ -518,16 +475,16 @@ Tx11
 $Comp
 L power:GND #PWR072
 U 1 1 5D14CB82
-P 7750 5650
-F 0 "#PWR072" H 7750 5400 50  0001 C CNN
-F 1 "GND" H 7755 5477 50  0000 C CNN
-F 2 "" H 7750 5650 50  0001 C CNN
-F 3 "" H 7750 5650 50  0001 C CNN
-	1    7750 5650
+P 7750 5400
+F 0 "#PWR072" H 7750 5150 50  0001 C CNN
+F 1 "GND" H 7755 5227 50  0000 C CNN
+F 2 "" H 7750 5400 50  0001 C CNN
+F 3 "" H 7750 5400 50  0001 C CNN
+	1    7750 5400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 5650 7750 5600
+	7750 5400 7750 5350
 Text HLabel 3600 3000 0    50   BiDi ~ 0
 SDA
 Text HLabel 3600 3150 0    50   Input ~ 0
@@ -539,4 +496,19 @@ Wire Wire Line
 Connection ~ 3800 3300
 Text HLabel 3600 3300 0    50   Input ~ 0
 NRST
+$Comp
+L j_Sensor_Touch:tr20_touch_array XY1
+U 1 1 5E4BA93B
+P 8300 4750
+F 0 "XY1" H 9228 4796 50  0000 L CNN
+F 1 "tr20_touch_array" H 9228 4705 50  0000 L CNN
+F 2 "jeffmakes-footprints:Touch_Array_TR20" H 8300 4600 50  0001 C CNN
+F 3 "" H 8300 4600 50  0001 C CNN
+	1    8300 4750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6500 3050
+NoConn ~ 6500 3150
+NoConn ~ 6500 3350
+NoConn ~ 6500 3250
 $EndSCHEMATC
