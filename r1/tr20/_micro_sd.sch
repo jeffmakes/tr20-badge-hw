@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L j_Connector:Micro_SD_Card_Det_Hirose_DM3AT-Connector J?
-U 1 1 5E524019
-P 6700 3950
-AR Path="/5E524019" Ref="J?"  Part="1" 
-AR Path="/5E488944/5E524019" Ref="J4"  Part="1" 
-F 0 "J4" H 6650 4767 50  0000 C CNN
-F 1 "DNP Micro_SD_Card_Det_Hirose_DM3AT" H 6650 4676 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 8750 4650 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6700 4050 50  0001 C CNN
-	1    6700 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5E52401F
 P 7600 4550
@@ -115,7 +102,6 @@ Wire Wire Line
 	5700 3000 5700 2950
 NoConn ~ 5800 3550
 NoConn ~ 5800 4250
-NoConn ~ 5800 4450
 $Comp
 L Device:R R?
 U 1 1 5E52404F
@@ -235,4 +221,15 @@ Wire Wire Line
 	5800 4350 3800 4350
 Text HLabel 3800 4350 0    50   Output ~ 0
 CD
+$Comp
+L j_Connector:Micro_SD_Card_CD J4
+U 1 1 5E48DE60
+P 6700 3950
+F 0 "J4" H 6650 4767 50  0000 C CNN
+F 1 "Micro_SD_Card_CD" H 6650 4676 50  0000 C CNN
+F 2 "" H 8750 4650 50  0001 C CNN
+F 3 "" H 6700 4050 50  0001 C CNN
+	1    6700 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
