@@ -171,35 +171,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 3750 8050 3650
 Connection ~ 7100 3750
-Wire Wire Line
-	8550 3450 8550 3750
-Wire Wire Line
-	8550 3750 8050 3750
-Connection ~ 8050 3750
-Wire Wire Line
-	8550 3250 8550 2950
-Wire Wire Line
-	8550 2950 8050 2950
-Connection ~ 8050 2950
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5E668647
-P 9000 3350
-AR Path="/5E668647" Ref="J?"  Part="1" 
-AR Path="/5E660CB6/5E668647" Ref="J5"  Part="1" 
-F 0 "J5" H 9080 3392 50  0000 L CNN
-F 1 "Conn_01x03" H 9080 3301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9000 3350 50  0001 C CNN
-F 3 "~" H 9000 3350 50  0001 C CNN
-	1    9000 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 3450 8800 3450
-Wire Wire Line
-	8350 3350 8800 3350
-Wire Wire Line
-	8550 3250 8800 3250
 $Comp
 L Device:C C25
 U 1 1 5C91DC2C
@@ -432,4 +403,5 @@ F 3 "~" H 1850 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 3650 1700 3650
+NoConn ~ 8350 3350
 $EndSCHEMATC
