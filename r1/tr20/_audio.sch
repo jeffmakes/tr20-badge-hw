@@ -278,17 +278,6 @@ Text HLabel 4400 3650 0    50   Input ~ 0
 I2S_SD
 Text HLabel 4400 3750 0    50   Input ~ 0
 I2S_SCK
-$Comp
-L Connector:AudioJack3 J10
-U 1 1 5E433B48
-P 7800 3650
-F 0 "J10" H 7520 3583 50  0000 R CNN
-F 1 "AudioJack3" H 7520 3674 50  0000 R CNN
-F 2 "" H 7800 3650 50  0001 C CNN
-F 3 "~" H 7800 3650 50  0001 C CNN
-	1    7800 3650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5850 3550 7250 3550
 Wire Wire Line
@@ -306,8 +295,6 @@ F 3 "" H 7500 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 4300 7500 4250
-Wire Wire Line
-	7500 3750 7600 3750
 $Comp
 L Device:D_TVS D?
 U 1 1 5E43C058
@@ -342,9 +329,6 @@ Wire Wire Line
 	7250 4050 7250 4250
 Wire Wire Line
 	7250 4250 7500 4250
-Connection ~ 7500 4250
-Wire Wire Line
-	7500 4250 7500 3750
 Wire Wire Line
 	6950 4050 6950 4250
 Wire Wire Line
@@ -360,4 +344,21 @@ Wire Wire Line
 Connection ~ 7250 3550
 Wire Wire Line
 	7250 3550 7600 3550
+$Comp
+L Connector:AudioJack4 J10
+U 1 1 5E48083E
+P 7800 3750
+F 0 "J10" H 7470 3633 50  0000 R CNN
+F 1 "PJ-320D" H 7470 3724 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 7800 3750 50  0001 C CNN
+F 3 "~" H 7800 3750 50  0001 C CNN
+	1    7800 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 3850 7500 3850
+Wire Wire Line
+	7500 3850 7500 4250
+Connection ~ 7500 4250
+NoConn ~ 7600 3750
 $EndSCHEMATC
