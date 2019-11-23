@@ -1104,10 +1104,6 @@ F 3 "" H 2650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 3150 1950 3150
-Wire Wire Line
-	1950 3150 1950 3300
-Wire Wire Line
 	2950 2600 2450 2600
 Text HLabel 2450 2600 0    50   Output ~ 0
 GPIO0
