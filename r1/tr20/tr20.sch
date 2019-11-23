@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -1044,72 +1044,72 @@ F1 "_leds.sch" 50
 F2 "DIN" I L 9550 4700 50 
 $EndSheet
 Wire Wire Line
-	7700 2350 7350 2350
+	7700 2350 7250 2350
 Wire Wire Line
-	7700 2000 7350 2000
+	7700 2000 7250 2000
 Wire Wire Line
-	7700 2100 7350 2100
-Text Label 7350 2250 0    50   ~ 0
+	7700 2100 7250 2100
+Text Label 7250 2250 0    50   ~ 0
 RTS
-Text Label 7350 2350 0    50   ~ 0
+Text Label 7250 2350 0    50   ~ 0
 DTR
-Text Label 7350 2000 0    50   ~ 0
+Text Label 7250 2000 0    50   ~ 0
 RXD0
-Text Label 7350 2100 0    50   ~ 0
+Text Label 7250 2100 0    50   ~ 0
 TXD0
 Wire Wire Line
-	7350 2250 7700 2250
-Text Label 9000 1400 0    50   ~ 0
+	7250 2250 7700 2250
+Text Label 9100 1400 0    50   ~ 0
 SD_CMD
-Text Label 9000 1500 0    50   ~ 0
+Text Label 9100 1500 0    50   ~ 0
 SD_CLK
-Text Label 9000 1600 0    50   ~ 0
+Text Label 9100 1600 0    50   ~ 0
 SD_DAT0
 Wire Wire Line
-	9000 1400 9550 1400
+	9100 1400 9550 1400
 Wire Wire Line
-	9000 1500 9550 1500
+	9100 1500 9550 1500
 Wire Wire Line
-	9000 1600 9550 1600
+	9100 1600 9550 1600
 Wire Wire Line
-	7700 2850 7150 2850
+	7700 2850 7250 2850
 Wire Wire Line
-	7700 3000 7150 3000
+	7700 3000 7250 3000
 Wire Wire Line
-	7700 3100 7150 3100
+	7700 3100 7250 3100
 Wire Wire Line
-	7700 3200 7150 3200
+	7700 3200 7250 3200
 Wire Wire Line
-	7700 3300 7150 3300
+	7700 3300 7250 3300
 Wire Wire Line
-	7700 3450 7150 3450
-Text Label 7150 2850 0    50   ~ 0
+	7700 3450 7250 3450
+Text Label 7250 2850 0    50   ~ 0
 IO0
-Text Label 7150 3000 0    50   ~ 0
+Text Label 7250 3000 0    50   ~ 0
 MOSI
-Text Label 7150 3100 0    50   ~ 0
+Text Label 7250 3100 0    50   ~ 0
 SCK
-Text Label 7150 3200 0    50   ~ 0
+Text Label 7250 3200 0    50   ~ 0
 ~DISP_CS~
-Text Label 7150 3300 0    50   ~ 0
+Text Label 7250 3300 0    50   ~ 0
 ~DC~
-Text Label 7150 3450 0    50   ~ 0
+Text Label 7250 3450 0    50   ~ 0
 DISP_BUSY
 Wire Wire Line
-	9550 4700 9200 4700
-Text Label 9200 4700 0    50   ~ 0
+	9550 4700 9100 4700
+Text Label 9100 4700 0    50   ~ 0
 LED_DIN
 Wire Wire Line
-	9200 2100 9550 2100
+	9100 2100 9550 2100
 Wire Wire Line
-	9200 2200 9550 2200
+	9100 2200 9550 2200
 Wire Wire Line
-	9200 2350 9550 2350
-Text Label 9200 2100 0    50   ~ 0
+	9100 2350 9550 2350
+Text Label 9100 2100 0    50   ~ 0
 SCL
-Text Label 9200 2200 0    50   ~ 0
+Text Label 9100 2200 0    50   ~ 0
 SDA
-Text Label 9200 2350 0    50   ~ 0
+Text Label 9100 2350 0    50   ~ 0
 BTN_INT
 $Sheet
 S 9550 2750 800  550 
@@ -1122,18 +1122,18 @@ F4 "RDY" O L 9550 3100 50
 F5 "NRST" I L 9550 3200 50 
 $EndSheet
 Wire Wire Line
-	9550 2850 9000 2850
+	9550 2850 9100 2850
 Wire Wire Line
-	9000 2950 9550 2950
-Text Label 9000 2850 0    50   ~ 0
+	9100 2950 9550 2950
+Text Label 9100 2850 0    50   ~ 0
 SCL
-Text Label 9000 2950 0    50   ~ 0
+Text Label 9100 2950 0    50   ~ 0
 SDA
 Wire Wire Line
-	9000 3100 9550 3100
+	9100 3100 9550 3100
 Wire Wire Line
-	9550 3200 9400 3200
-Text Label 9000 3100 0    50   ~ 0
+	9550 3200 9500 3200
+Text Label 9100 3100 0    50   ~ 0
 IQ_RDY
 Wire Wire Line
 	3800 1950 4350 1950
@@ -1195,7 +1195,7 @@ Text Label 3950 2650 0    50   ~ 0
 IQ_RDY
 Text Label 3950 2550 0    50   ~ 0
 BTN_INT
-Text GLabel 9400 3200 0    50   Input ~ 0
+Text GLabel 9500 3200 0    50   Input ~ 0
 IQ_RESET
 $Sheet
 S 7700 4600 800  300 
@@ -1206,12 +1206,12 @@ F2 "SDA" B L 7700 4800 50
 F3 "SCL" I L 7700 4700 50 
 $EndSheet
 Wire Wire Line
-	7700 4700 7200 4700
+	7700 4700 7250 4700
 Wire Wire Line
-	7750 4800 7200 4800
-Text Label 7200 4700 0    50   ~ 0
+	7750 4800 7250 4800
+Text Label 7250 4700 0    50   ~ 0
 SCL
-Text Label 7200 4800 0    50   ~ 0
+Text Label 7250 4800 0    50   ~ 0
 SDA
 $Sheet
 S 7700 5200 800  450 
@@ -1223,17 +1223,17 @@ F3 "SCL" I L 7700 5300 50
 F4 "SDA" B L 7700 5400 50 
 $EndSheet
 Wire Wire Line
-	7700 5300 7200 5300
+	7700 5300 7250 5300
 Wire Wire Line
-	7700 5400 7200 5400
-Text Label 7200 5300 0    50   ~ 0
+	7700 5400 7250 5400
+Text Label 7250 5300 0    50   ~ 0
 SCL
-Text Label 7200 5400 0    50   ~ 0
+Text Label 7250 5400 0    50   ~ 0
 SDA
-Text GLabel 7600 5550 0    50   Output ~ 0
+Text GLabel 7650 5550 0    50   Output ~ 0
 ACCEL_INT
 Wire Wire Line
-	7600 5550 7700 5550
+	7650 5550 7700 5550
 $Sheet
 S 7700 3900 800  400 
 U 5DD6A7F2
@@ -1244,16 +1244,16 @@ F3 "I2S_SD" I L 7700 4100 50
 F4 "I2S_SCK" I L 7700 4200 50 
 $EndSheet
 Wire Wire Line
-	7700 4000 7200 4000
+	7700 4000 7250 4000
 Wire Wire Line
-	7700 4100 7200 4100
+	7700 4100 7250 4100
 Wire Wire Line
-	7700 4200 7200 4200
-Text Label 7200 4000 0    50   ~ 0
+	7700 4200 7250 4200
+Text Label 7250 4000 0    50   ~ 0
 I2S_WS
-Text Label 7200 4100 0    50   ~ 0
+Text Label 7250 4100 0    50   ~ 0
 I2S_SD
-Text Label 7200 4200 0    50   ~ 0
+Text Label 7250 4200 0    50   ~ 0
 I2S_SCK
 $Sheet
 S 9550 3650 800  650 
@@ -1266,24 +1266,40 @@ F4 "~CS" I L 9550 4200 50
 F5 "SCK" I L 9550 4100 50 
 F6 "~RESET" I L 9550 3750 50 
 $EndSheet
-Text GLabel 9450 3750 0    50   Input ~ 0
+Text GLabel 9500 3750 0    50   Input ~ 0
 CC_RESET
 Wire Wire Line
-	9450 3750 9550 3750
+	9500 3750 9550 3750
 Wire Wire Line
-	9550 3900 9050 3900
+	9550 3900 9100 3900
 Wire Wire Line
-	9550 4000 9050 4000
+	9550 4000 9100 4000
 Wire Wire Line
-	9550 4100 9050 4100
+	9550 4100 9100 4100
 Wire Wire Line
-	9550 4200 9050 4200
-Text Label 9050 3900 0    50   ~ 0
+	9550 4200 9100 4200
+Text Label 9100 3900 0    50   ~ 0
 MOSI
-Text Label 9050 4000 0    50   ~ 0
+Text Label 9100 4000 0    50   ~ 0
 MISO
-Text Label 9050 4100 0    50   ~ 0
+Text Label 9100 4100 0    50   ~ 0
 SCK
-Text Label 9050 4200 0    50   ~ 0
+Text Label 9100 4200 0    50   ~ 0
 ~CC_CS~
+Wire Wire Line
+	9550 5350 9100 5350
+Text Label 9100 5350 0    50   ~ 0
+SDA
+Text Label 9100 5250 0    50   ~ 0
+SCL
+$Sheet
+S 9550 5150 800  300 
+U 5E2194BA
+F0 "haptic" 50
+F1 "_haptic.sch" 50
+F2 "SDA" I L 9550 5350 50 
+F3 "SCL" I L 9550 5250 50 
+$EndSheet
+Wire Wire Line
+	9550 5250 9100 5250
 $EndSCHEMATC
