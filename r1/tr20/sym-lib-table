@@ -350,4 +350,5 @@
   (lib (name j_Sensor_Touch)(type Legacy)(uri ${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Sensor_Touch.lib)(options "")(descr ""))
   (lib (name j_Switch)(type Legacy)(uri ${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Switch.lib)(options "")(descr ""))
   (lib (name j_RF_Module)(type Legacy)(uri ${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_RF_Module.lib)(options "")(descr ""))
+  (lib (name j_Driver_Haptic)(type Legacy)(uri ${KIPRJMOD}/../../lib/jeffmakes-kicad-library/jeffmakes-symbols/j_Driver_Haptic.lib)(options "")(descr ""))
 )
