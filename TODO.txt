@@ -1,4 +1,3 @@
-- Fix WS2812 level translation bodge (1k pullup is not the solution!)
 - BOM reduction - rationalise some passive values
 - Antenna testing - Tom?
 
