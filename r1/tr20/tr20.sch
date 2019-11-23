@@ -1037,11 +1037,11 @@ F6 "SCK" I L 7700 3100 50
 F7 "MOSI" I L 7700 3000 50 
 $EndSheet
 $Sheet
-S 9550 4600 800  200 
+S 9550 4700 800  200 
 U 5E660CB6
 F0 "leds" 50
 F1 "_leds.sch" 50
-F2 "DIN" I L 9550 4700 50 
+F2 "DIN" I L 9550 4800 50 
 $EndSheet
 Wire Wire Line
 	7700 2350 7250 2350
@@ -1096,8 +1096,8 @@ Text Label 7250 3300 0    50   ~ 0
 Text Label 7250 3450 0    50   ~ 0
 DISP_BUSY
 Wire Wire Line
-	9550 4700 9100 4700
-Text Label 9100 4700 0    50   ~ 0
+	9550 4800 9100 4800
+Text Label 9100 4800 0    50   ~ 0
 LED_DIN
 Wire Wire Line
 	9100 2100 9550 2100
@@ -1256,7 +1256,7 @@ I2S_SD
 Text Label 7250 4200 0    50   ~ 0
 I2S_SCK
 $Sheet
-S 9550 3650 800  650 
+S 9550 3650 800  750 
 U 5DDB5F59
 F0 "radio" 50
 F1 "_radio.sch" 50
@@ -1265,6 +1265,7 @@ F3 "MISO" O L 9550 4000 50
 F4 "~CS" I L 9550 4200 50 
 F5 "SCK" I L 9550 4100 50 
 F6 "~RESET" I L 9550 3750 50 
+F7 "GPIO0" O L 9550 4300 50 
 $EndSheet
 Text GLabel 9500 3750 0    50   Input ~ 0
 CC_RESET
@@ -1287,19 +1288,23 @@ SCK
 Text Label 9100 4200 0    50   ~ 0
 ~CC_CS~
 Wire Wire Line
-	9550 5350 9100 5350
-Text Label 9100 5350 0    50   ~ 0
+	9550 5400 9100 5400
+Text Label 9100 5400 0    50   ~ 0
 SDA
-Text Label 9100 5250 0    50   ~ 0
+Text Label 9100 5300 0    50   ~ 0
 SCL
 $Sheet
-S 9550 5150 800  300 
+S 9550 5200 800  300 
 U 5E2194BA
 F0 "haptic" 50
 F1 "_haptic.sch" 50
-F2 "SDA" I L 9550 5350 50 
-F3 "SCL" I L 9550 5250 50 
+F2 "SDA" I L 9550 5400 50 
+F3 "SCL" I L 9550 5300 50 
 $EndSheet
 Wire Wire Line
-	9550 5250 9100 5250
+	9550 5300 9100 5300
+Wire Wire Line
+	9550 4300 9100 4300
+Text Label 9100 4300 0    50   ~ 0
+CC_INT
 $EndSCHEMATC

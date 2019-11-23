@@ -1044,17 +1044,6 @@ Text HLabel 2450 1900 0    50   Input ~ 0
 Wire Wire Line
 	2450 1900 2650 1900
 $Comp
-L Connector:TestPoint TP37
-U 1 1 5DE52061
-P 2950 2600
-F 0 "TP37" V 3053 2672 50  0000 C CNN
-F 1 "~" V 3054 2672 50  0000 C CNN
-F 2 "" H 3150 2600 50  0001 C CNN
-F 3 "~" H 3150 2600 50  0001 C CNN
-	1    2950 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:TestPoint TP38
 U 1 1 5DE539EF
 P 2950 2700
@@ -1114,4 +1103,12 @@ F 3 "" H 2650 1500 50  0001 C CNN
 	1    2650 1500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 3150 1950 3150
+Wire Wire Line
+	1950 3150 1950 3300
+Wire Wire Line
+	2950 2600 2450 2600
+Text HLabel 2450 2600 0    50   Output ~ 0
+GPIO0
 $EndSCHEMATC
