@@ -23,8 +23,8 @@ L LED:WS2812B D?
 U 1 1 5E6685E9
 P 3300 3350
 AR Path="/5E6685E9" Ref="D?"  Part="1" 
-AR Path="/5E660CB6/5E6685E9" Ref="D11"  Part="1" 
-F 0 "D11" H 3641 3396 50  0000 L CNN
+AR Path="/5E660CB6/5E6685E9" Ref="LED1"  Part="1" 
+F 0 "LED1" H 3641 3396 50  0000 L CNN
 F 1 "WS2812B-3535" H 3641 3305 50  0000 L CNN
 F 2 "jeffmakes-footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_no_silk" H 3350 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3400 2975 50  0001 L TNN
@@ -36,8 +36,8 @@ L LED:WS2812B D?
 U 1 1 5E6685EF
 P 4250 3350
 AR Path="/5E6685EF" Ref="D?"  Part="1" 
-AR Path="/5E660CB6/5E6685EF" Ref="D12"  Part="1" 
-F 0 "D12" H 4591 3396 50  0000 L CNN
+AR Path="/5E660CB6/5E6685EF" Ref="LED2"  Part="1" 
+F 0 "LED2" H 4591 3396 50  0000 L CNN
 F 1 "WS2812B-3535" H 4591 3305 50  0000 L CNN
 F 2 "jeffmakes-footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_no_silk" H 4300 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4350 2975 50  0001 L TNN
@@ -49,8 +49,8 @@ L LED:WS2812B D?
 U 1 1 5E6685FB
 P 6150 3350
 AR Path="/5E6685FB" Ref="D?"  Part="1" 
-AR Path="/5E660CB6/5E6685FB" Ref="D14"  Part="1" 
-F 0 "D14" H 6491 3396 50  0000 L CNN
+AR Path="/5E660CB6/5E6685FB" Ref="LED4"  Part="1" 
+F 0 "LED4" H 6491 3396 50  0000 L CNN
 F 1 "WS2812B-3535" H 6491 3305 50  0000 L CNN
 F 2 "jeffmakes-footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_no_silk" H 6200 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6250 2975 50  0001 L TNN
@@ -132,49 +132,24 @@ L LED:WS2812B D?
 U 1 1 5E668628
 P 7100 3350
 AR Path="/5E668628" Ref="D?"  Part="1" 
-AR Path="/5E660CB6/5E668628" Ref="D15"  Part="1" 
-F 0 "D15" H 7441 3396 50  0000 L CNN
+AR Path="/5E660CB6/5E668628" Ref="LED5"  Part="1" 
+F 0 "LED5" H 7441 3396 50  0000 L CNN
 F 1 "WS2812B-3535" H 7441 3305 50  0000 L CNN
 F 2 "jeffmakes-footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_no_silk" H 7150 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 2975 50  0001 L TNN
 	1    7100 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED:WS2812B D?
-U 1 1 5E66862E
-P 8050 3350
-AR Path="/5E66862E" Ref="D?"  Part="1" 
-AR Path="/5E660CB6/5E66862E" Ref="D16"  Part="1" 
-F 0 "D16" H 8391 3396 50  0000 L CNN
-F 1 "WS2812B-3535" H 8391 3305 50  0000 L CNN
-F 2 "jeffmakes-footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_no_silk" H 8100 3050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8150 2975 50  0001 L TNN
-	1    8050 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 3350 7750 3350
 Wire Wire Line
 	6150 2950 7100 2950
-Wire Wire Line
-	8050 2950 8050 3050
 Connection ~ 6150 2950
 Wire Wire Line
 	7100 3050 7100 2950
-Connection ~ 7100 2950
-Wire Wire Line
-	7100 2950 8050 2950
 Wire Wire Line
 	6150 3750 7100 3750
 Wire Wire Line
 	7100 3750 7100 3650
 Connection ~ 6150 3750
-Wire Wire Line
-	7100 3750 8050 3750
-Wire Wire Line
-	8050 3750 8050 3650
-Connection ~ 7100 3750
 $Comp
 L Device:C C25
 U 1 1 5C91DC2C
@@ -338,8 +313,8 @@ L LED:WS2812B D?
 U 1 1 5E6685F5
 P 5200 3350
 AR Path="/5E6685F5" Ref="D?"  Part="1" 
-AR Path="/5E660CB6/5E6685F5" Ref="D13"  Part="1" 
-F 0 "D13" H 5541 3396 50  0000 L CNN
+AR Path="/5E660CB6/5E6685F5" Ref="LED3"  Part="1" 
+F 0 "LED3" H 5541 3396 50  0000 L CNN
 F 1 "WS2812B-3535" H 5541 3305 50  0000 L CNN
 F 2 "jeffmakes-footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_no_silk" H 5250 3050 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5300 2975 50  0001 L TNN
@@ -408,4 +383,29 @@ $EndComp
 Wire Wire Line
 	1500 3650 1700 3650
 NoConn ~ 8350 3350
+Wire Wire Line
+	7400 3350 7750 3350
+Connection ~ 7100 3750
+Wire Wire Line
+	7100 3750 8050 3750
+Wire Wire Line
+	8050 3750 8050 3650
+Connection ~ 7100 2950
+Wire Wire Line
+	7100 2950 8050 2950
+Wire Wire Line
+	8050 2950 8050 3050
+$Comp
+L LED:WS2812B D?
+U 1 1 5E66862E
+P 8050 3350
+AR Path="/5E66862E" Ref="D?"  Part="1" 
+AR Path="/5E660CB6/5E66862E" Ref="LED6"  Part="1" 
+F 0 "LED6" H 8391 3396 50  0000 L CNN
+F 1 "WS2812B-3535" H 8391 3305 50  0000 L CNN
+F 2 "jeffmakes-footprints:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_no_silk" H 8100 3050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8150 2975 50  0001 L TNN
+	1    8050 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
