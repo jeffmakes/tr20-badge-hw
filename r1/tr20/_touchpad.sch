@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:tr20-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 Wire Wire Line
 	13050 32200 12650 32200
@@ -137,7 +141,7 @@ U 1 1 5CE2EC18
 P 7350 3100
 F 0 "C32" H 7465 3146 50  0000 L CNN
 F 1 "100pF" H 7465 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7388 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7388 2950 50  0001 C CNN
 F 3 "~" H 7350 3100 50  0001 C CNN
 	1    7350 3100
 	-1   0    0    -1  
@@ -159,7 +163,7 @@ U 1 1 5CE2F0E6
 P 8150 2950
 F 0 "C34" H 8265 2996 50  0000 L CNN
 F 1 "100nF" H 8265 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8188 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8188 2800 50  0001 C CNN
 F 3 "~" H 8150 2950 50  0001 C CNN
 	1    8150 2950
 	-1   0    0    -1  
@@ -170,7 +174,7 @@ U 1 1 5CE2F196
 P 8600 2950
 F 0 "C35" H 8715 2996 50  0000 L CNN
 F 1 "100pF" H 8715 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8638 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8638 2800 50  0001 C CNN
 F 3 "~" H 8600 2950 50  0001 C CNN
 	1    8600 2950
 	-1   0    0    -1  
@@ -270,7 +274,7 @@ U 1 1 5CFE100B
 P 3800 3750
 F 0 "C31" H 3915 3796 50  0000 L CNN
 F 1 "100nF" H 3915 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3838 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 3600 50  0001 C CNN
 F 3 "~" H 3800 3750 50  0001 C CNN
 	1    3800 3750
 	-1   0    0    -1  
@@ -302,19 +306,6 @@ F 3 "" H 3800 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 3900 3800 4000
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J6
-U 1 1 5D0670A7
-P 2150 3050
-F 0 "J6" H 2200 3467 50  0000 C CNN
-F 1 "3020-10-0300-00" H 2200 3376 50  0000 C CNN
-F 2 "jeffmakes-footprints:IDC-Header_2x05_P2.54mm_Vertical_SMD" H 2150 3050 50  0001 C CNN
-F 3 "~" H 2150 3050 50  0001 C CNN
-F 4 "3020-10-0300-00" H 2200 2750 50  0000 C CNN "MPN"
-F 5 "CNC Tech" H 2150 3050 50  0001 C CNN "Manufacturer"
-	1    2150 3050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR067
 U 1 1 5D067B90
@@ -353,20 +344,13 @@ Text Label 1350 3150 0    50   ~ 0
 SDA
 Text Label 1350 3250 0    50   ~ 0
 SCL
-Wire Wire Line
-	2450 3250 2800 3250
-Text Label 2550 3250 0    50   ~ 0
+Text Label 1350 3050 0    50   ~ 0
 IQ_RDY
 Text Notes 1550 2450 0    50   ~ 0
 IQS550 programming / test header
 Wire Wire Line
 	6500 2850 7350 2850
 Connection ~ 7350 2850
-NoConn ~ 2450 2850
-NoConn ~ 2450 2950
-NoConn ~ 2450 3050
-NoConn ~ 2450 3150
-NoConn ~ 1950 3050
 $Comp
 L j_Sensor_Touch:IQS550 U6
 U 1 1 5CB7CEED
@@ -511,4 +495,17 @@ NoConn ~ 6500 3050
 NoConn ~ 6500 3150
 NoConn ~ 6500 3350
 NoConn ~ 6500 3250
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 5E5BCFB2
+P 2150 3050
+F 0 "J6" H 2230 3092 50  0000 L CNN
+F 1 "Conn_01x05" H 2230 3001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2150 3050 50  0001 C CNN
+F 3 "~" H 2150 3050 50  0001 C CNN
+	1    2150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3050 1350 3050
 $EndSCHEMATC

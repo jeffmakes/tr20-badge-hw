@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:tr20-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 Text Label 5600 3650 0    50   ~ 0
 JOY_A
@@ -270,7 +274,7 @@ U 1 1 5C9242D0
 P 2050 2450
 F 0 "R19" H 2120 2496 50  0000 L CNN
 F 1 "10k" H 2120 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1980 2450 50  0001 C CNN
 F 3 "~" H 2050 2450 50  0001 C CNN
 	1    2050 2450
 	-1   0    0    -1  

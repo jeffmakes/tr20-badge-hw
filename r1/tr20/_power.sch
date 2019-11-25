@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:tr20-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L dk_PMIC-Battery-Chargers:MCP73831T-2ACI_OT U1
@@ -40,7 +44,7 @@ U 1 1 5F628818
 P 4600 4050
 F 0 "R9" H 4670 4096 50  0000 L CNN
 F 1 "1k" H 4670 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4530 4050 50  0001 C CNN
 F 3 "~" H 4600 4050 50  0001 C CNN
 	1    4600 4050
 	1    0    0    -1  
@@ -53,7 +57,7 @@ U 1 1 5C4767A1
 P 5200 4050
 F 0 "R10" H 5270 4096 50  0000 L CNN
 F 1 "1k" H 5270 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5130 4050 50  0001 C CNN
 F 3 "~" H 5200 4050 50  0001 C CNN
 	1    5200 4050
 	1    0    0    -1  
@@ -137,13 +141,11 @@ U 1 1 5C47B577
 P 3450 4050
 F 0 "R8" H 3520 4096 50  0000 L CNN
 F 1 "1k" H 3520 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3380 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3380 4050 50  0001 C CNN
 F 3 "~" H 3450 4050 50  0001 C CNN
 	1    3450 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 3700 3450 3700
 Wire Wire Line
 	3450 3700 3450 3900
 Text Notes 3750 4450 1    50   ~ 0
@@ -258,7 +260,7 @@ U 1 1 5C4AF823
 P 6450 2600
 F 0 "R11" H 6520 2646 50  0000 L CNN
 F 1 "10k" H 6520 2555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 2600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6380 2600 50  0001 C CNN
 F 3 "~" H 6450 2600 50  0001 C CNN
 	1    6450 2600
 	1    0    0    -1  
@@ -391,7 +393,7 @@ U 1 1 5C514428
 P 6800 4000
 F 0 "R12" H 6870 4046 50  0000 L CNN
 F 1 "10k" H 6870 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 4000 50  0001 C CNN
 F 3 "~" H 6800 4000 50  0001 C CNN
 	1    6800 4000
 	1    0    0    -1  
@@ -481,7 +483,7 @@ U 1 1 5F628875
 P 7500 4250
 F 0 "R13" H 7570 4296 50  0000 L CNN
 F 1 "1k" H 7570 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7430 4250 50  0001 C CNN
 F 3 "~" H 7500 4250 50  0001 C CNN
 	1    7500 4250
 	1    0    0    -1  
@@ -632,4 +634,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 2400 5950 3600
 Connection ~ 5950 2400
+Wire Wire Line
+	3700 3700 3450 3700
 $EndSCHEMATC

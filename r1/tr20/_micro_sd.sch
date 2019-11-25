@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:tr20-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L power:GND #PWR?
@@ -110,7 +114,7 @@ AR Path="/5E52404F" Ref="R?"  Part="1"
 AR Path="/5E488944/5E52404F" Ref="R30"  Part="1" 
 F 0 "R30" H 4820 3346 50  0000 L CNN
 F 1 "10k" H 4820 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 3300 50  0001 C CNN
 F 3 "~" H 4750 3300 50  0001 C CNN
 	1    4750 3300
 	-1   0    0    -1  
@@ -123,7 +127,7 @@ AR Path="/5E524055" Ref="R?"  Part="1"
 AR Path="/5E488944/5E524055" Ref="R29"  Part="1" 
 F 0 "R29" H 4520 3346 50  0000 L CNN
 F 1 "10k" H 4520 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 3300 50  0001 C CNN
 F 3 "~" H 4450 3300 50  0001 C CNN
 	1    4450 3300
 	-1   0    0    -1  
@@ -136,7 +140,7 @@ AR Path="/5E52405B" Ref="R?"  Part="1"
 AR Path="/5E488944/5E52405B" Ref="R28"  Part="1" 
 F 0 "R28" H 4220 3346 50  0000 L CNN
 F 1 "10k" H 4220 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4080 3300 50  0001 C CNN
 F 3 "~" H 4150 3300 50  0001 C CNN
 	1    4150 3300
 	-1   0    0    -1  
@@ -176,7 +180,7 @@ AR Path="/5E52406F" Ref="R?"  Part="1"
 AR Path="/5E488944/5E52406F" Ref="R31"  Part="1" 
 F 0 "R31" H 5120 3346 50  0000 L CNN
 F 1 "10k" H 5120 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4980 3300 50  0001 C CNN
 F 3 "~" H 5050 3300 50  0001 C CNN
 	1    5050 3300
 	-1   0    0    -1  

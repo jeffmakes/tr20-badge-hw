@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:tr20-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L power:+VSW #PWR0112
@@ -147,7 +151,7 @@ U 1 1 5E22DEED
 P 6600 3800
 F 0 "J9" H 6680 3792 50  0000 L CNN
 F 1 "Conn_01x02" H 6680 3701 50  0000 L CNN
-F 2 "" H 6600 3800 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 6600 3800 50  0001 C CNN
 F 3 "~" H 6600 3800 50  0001 C CNN
 	1    6600 3800
 	1    0    0    -1  

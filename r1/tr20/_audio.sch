@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:tr20-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L Audio:PCM5100 U8
@@ -42,7 +46,7 @@ U 1 1 5DD6C7CA
 P 6400 4650
 F 0 "C42" H 6515 4696 50  0000 L CNN
 F 1 "100nF" H 6515 4605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6438 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 4500 50  0001 C CNN
 F 3 "~" H 6400 4650 50  0001 C CNN
 	1    6400 4650
 	1    0    0    -1  
@@ -95,7 +99,7 @@ U 1 1 5DD76FD3
 P 6100 3000
 F 0 "C41" H 6215 3046 50  0000 L CNN
 F 1 "100nF" H 6215 2955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6138 2850 50  0001 C CNN
 F 3 "~" H 6100 3000 50  0001 C CNN
 	1    6100 3000
 	1    0    0    -1  

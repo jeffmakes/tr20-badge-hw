@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:tr20-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L RF:CC1200 U9
@@ -1082,7 +1086,7 @@ U 1 1 5DEF437B
 P 2650 1650
 F 0 "R37" H 2720 1696 50  0000 L CNN
 F 1 "10k" H 2720 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2580 1650 50  0001 C CNN
 F 3 "~" H 2650 1650 50  0001 C CNN
 	1    2650 1650
 	1    0    0    -1  
