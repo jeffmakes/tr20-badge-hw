@@ -1,3 +1,3 @@
 - BOM reduction - rationalise some passive values
 - Antenna testing - Tom?
-
+- Check global label nets are working ok. (CC_RESET, etc).
