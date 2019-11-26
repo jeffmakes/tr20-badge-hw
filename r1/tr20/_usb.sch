@@ -130,8 +130,6 @@ F 4 "ESD5Z5.0VC" V 3750 3450 50  0001 C CNN "MPN"
 	1    3750 3450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3500 2600 4100 2600
 $Comp
 L power:GND #PWR?
 U 1 1 5E18A363
@@ -198,48 +196,6 @@ F 3 "~" H 4450 3450 50  0001 C CNN
 F 4 "ESD5Z5.0VC" V 4450 3450 50  0001 C CNN "MPN"
 	1    4450 3450
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E18A386
-P 4100 2600
-AR Path="/5E18A386" Ref="TP?"  Part="1" 
-AR Path="/5DFB5AB2/5E18A386" Ref="TP35"  Part="1" 
-F 0 "TP35" H 4158 2720 50  0000 L CNN
-F 1 "TestPoint" H 4158 2629 50  0000 L CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4300 2600 50  0001 C CNN
-F 3 "~" H 4300 2600 50  0001 C CNN
-	1    4100 2600
-	1    0    0    -1  
-$EndComp
-Connection ~ 4100 2600
-Wire Wire Line
-	4100 2600 4450 2600
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E18A38E
-P 4100 2900
-AR Path="/5E18A38E" Ref="TP?"  Part="1" 
-AR Path="/5DFB5AB2/5E18A38E" Ref="TP36"  Part="1" 
-F 0 "TP36" H 4158 3020 50  0000 L CNN
-F 1 "TestPoint" H 4158 2929 50  0000 L CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 4300 2900 50  0001 C CNN
-F 3 "~" H 4300 2900 50  0001 C CNN
-	1    4100 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E18A394
-P 3750 2900
-AR Path="/5E18A394" Ref="TP?"  Part="1" 
-AR Path="/5DFB5AB2/5E18A394" Ref="TP34"  Part="1" 
-F 0 "TP34" H 3808 3020 50  0000 L CNN
-F 1 "TestPoint" H 3808 2929 50  0000 L CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 3950 2900 50  0001 C CNN
-F 3 "~" H 3950 2900 50  0001 C CNN
-	1    3750 2900
-	1    0    0    -1  
 $EndComp
 Connection ~ 3750 3100
 $Comp
@@ -530,10 +486,6 @@ TXD
 Text HLabel 7900 2600 2    50   Output ~ 0
 DTR
 Wire Wire Line
-	4100 2900 4100 3000
-Wire Wire Line
-	3750 2900 3750 3100
-Wire Wire Line
 	4450 2200 4450 2600
 Wire Wire Line
 	5650 2450 5650 2550
@@ -581,4 +533,6 @@ F 3 "~" H 5700 1700 50  0001 C CNN
 	1    5700 1700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3500 2600 4450 2600
 $EndSCHEMATC
