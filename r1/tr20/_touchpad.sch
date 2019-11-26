@@ -83,29 +83,19 @@ Tx13
 Text Label 4300 5400 0    50   ~ 0
 Tx14
 Wire Wire Line
-	6500 3450 6750 3450
-Wire Wire Line
-	6500 3550 6750 3550
-Wire Wire Line
-	6500 3650 6750 3650
+	6500 3950 6750 3950
 Wire Wire Line
 	6500 3750 6750 3750
 Wire Wire Line
-	6500 3850 6750 3850
+	6500 3650 6750 3650
 Wire Wire Line
-	6500 3950 6750 3950
-Text Label 6550 3450 0    50   ~ 0
-Rx4A
-Text Label 6550 3550 0    50   ~ 0
-Rx5A
-Text Label 6550 3650 0    50   ~ 0
-Rx6A
-Text Label 6550 3750 0    50   ~ 0
-Rx7A
-Text Label 6550 3850 0    50   ~ 0
-Rx8A
+	6500 3550 6750 3550
 Text Label 6550 3950 0    50   ~ 0
-Rx9A
+Rx4A
+Text Label 6550 3650 0    50   ~ 0
+Rx7A
+Text Label 6550 3550 0    50   ~ 0
+Rx8A
 Wire Wire Line
 	6500 5250 6800 5250
 Wire Wire Line
@@ -373,27 +363,19 @@ NoConn ~ 6500 4850
 NoConn ~ 6500 4950
 NoConn ~ 6500 5050
 Wire Wire Line
-	7700 4150 7700 3900
-Wire Wire Line
-	7800 4150 7800 3900
-Wire Wire Line
-	7900 4150 7900 3900
-Wire Wire Line
-	8000 4150 8000 3900
-Wire Wire Line
 	8100 4150 8100 3900
 Wire Wire Line
 	8200 4150 8200 3900
 Wire Wire Line
 	8300 4150 8300 3900
 Wire Wire Line
-	8400 4150 8400 3900
-Wire Wire Line
-	8500 4150 8500 3900
+	8700 4150 8700 3900
 Wire Wire Line
 	8600 4150 8600 3900
 Wire Wire Line
-	8700 4150 8700 3900
+	8500 4150 8500 3900
+Wire Wire Line
+	8400 4150 8400 3900
 Wire Wire Line
 	8800 4150 8800 3900
 Wire Wire Line
@@ -406,56 +388,10 @@ Wire Wire Line
 	7400 4600 7150 4600
 Wire Wire Line
 	7150 4500 7400 4500
-Wire Wire Line
-	7400 4700 7150 4700
-Wire Wire Line
-	7400 4800 7150 4800
-Wire Wire Line
-	7400 4900 7150 4900
-Wire Wire Line
-	7400 5000 7150 5000
 Text Label 7150 4500 0    50   ~ 0
 Rx9A
 Text Label 7150 4600 0    50   ~ 0
 Rx8A
-Text Label 7150 4700 0    50   ~ 0
-Rx7A
-Text Label 7150 4800 0    50   ~ 0
-Rx6A
-Text Label 7150 4900 0    50   ~ 0
-Rx5A
-Text Label 7150 5000 0    50   ~ 0
-Rx4A
-Text Label 7700 4050 1    50   ~ 0
-Tx10
-Text Label 7800 4050 1    50   ~ 0
-Tx9
-Text Label 7900 4050 1    50   ~ 0
-Tx8
-Text Label 8000 4050 1    50   ~ 0
-Tx7
-Text Label 8100 4050 1    50   ~ 0
-Tx6
-Text Label 8200 4050 1    50   ~ 0
-Tx5
-Text Label 8300 4050 1    50   ~ 0
-Tx4
-Text Label 8400 4050 1    50   ~ 0
-Tx3
-Text Label 8500 4050 1    50   ~ 0
-Tx2
-Text Label 8600 4050 1    50   ~ 0
-Tx1
-Text Label 8700 4050 1    50   ~ 0
-Tx0
-Text Label 8800 4050 1    50   ~ 0
-Tx14
-Text Label 8900 4050 1    50   ~ 0
-Tx13
-Text Label 9000 4050 1    50   ~ 0
-Tx12
-Text Label 9100 4050 1    50   ~ 0
-Tx11
 $Comp
 L power:GND #PWR072
 U 1 1 5D14CB82
@@ -508,4 +444,68 @@ F 3 "~" H 2150 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1950 3050 1350 3050
+Text Label 9100 4050 1    50   ~ 0
+Tx0
+Text Label 9000 4050 1    50   ~ 0
+Tx1
+Text Label 8900 4050 1    50   ~ 0
+Tx2
+Text Label 8800 4050 1    50   ~ 0
+Tx3
+Text Label 8400 4050 1    50   ~ 0
+Tx4
+Text Label 8500 4050 1    50   ~ 0
+Tx5
+Text Label 8600 4050 1    50   ~ 0
+Tx6
+Text Label 8700 4050 1    50   ~ 0
+Tx7
+Text Label 8300 4050 1    50   ~ 0
+Tx8
+Text Label 8200 4050 1    50   ~ 0
+Tx9
+Text Label 8100 4050 1    50   ~ 0
+Tx10
+Text Label 8000 4050 1    50   ~ 0
+Tx11
+Text Label 7900 4050 1    50   ~ 0
+Tx12
+Text Label 7800 4050 1    50   ~ 0
+Tx13
+Text Label 7700 4050 1    50   ~ 0
+Tx14
+Wire Wire Line
+	8000 4150 8000 3900
+Wire Wire Line
+	7900 4150 7900 3900
+Wire Wire Line
+	7800 4150 7800 3900
+Wire Wire Line
+	7700 4150 7700 3900
+Text Label 7150 5000 0    50   ~ 0
+Rx4A
+Text Label 7150 4900 0    50   ~ 0
+Rx5A
+Text Label 7150 4800 0    50   ~ 0
+Rx6A
+Text Label 7150 4700 0    50   ~ 0
+Rx7A
+Wire Wire Line
+	7400 5000 7150 5000
+Wire Wire Line
+	7400 4900 7150 4900
+Wire Wire Line
+	7400 4800 7150 4800
+Wire Wire Line
+	7400 4700 7150 4700
+Text Label 6550 3450 0    50   ~ 0
+Rx9A
+Wire Wire Line
+	6500 3450 6750 3450
+Text Label 6550 3750 0    50   ~ 0
+Rx6A
+Text Label 6550 3850 0    50   ~ 0
+Rx5A
+Wire Wire Line
+	6500 3850 6750 3850
 $EndSCHEMATC

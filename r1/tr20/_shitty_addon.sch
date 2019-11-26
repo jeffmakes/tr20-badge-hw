@@ -74,10 +74,6 @@ Text Label 6150 3050 0    50   ~ 0
 SDA
 Text Label 6150 3150 0    50   ~ 0
 SCL
-Text Notes 5400 3300 0    50   ~ 0
-Note pin numbers are flipped
-Text Notes 5400 3400 0    50   ~ 0
- - footprint has mirrored numbering...
 $Comp
 L Device:D_TVS D?
 U 1 1 5DCDCD5F
