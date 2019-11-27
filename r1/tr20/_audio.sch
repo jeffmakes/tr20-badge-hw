@@ -134,7 +134,7 @@ Connection ~ 6550 3200
 Wire Wire Line
 	5450 3350 5450 2800
 Wire Wire Line
-	5450 2800 6100 2800
+	5450 2800 5650 2800
 Wire Wire Line
 	5350 2800 5450 2800
 Connection ~ 5450 2800
@@ -365,4 +365,25 @@ Wire Wire Line
 	7500 3850 7500 4250
 Connection ~ 7500 4250
 NoConn ~ 7600 3750
+Wire Wire Line
+	5650 2800 5650 2850
+Connection ~ 5650 2800
+Wire Wire Line
+	5650 2800 6100 2800
+Wire Wire Line
+	5650 3150 5650 3200
+Wire Wire Line
+	5650 3200 6100 3200
+Connection ~ 6100 3200
+$Comp
+L Device:C C38
+U 1 1 5DF9ACF4
+P 5650 3000
+F 0 "C38" H 5765 3046 50  0000 L CNN
+F 1 "100nF" H 5765 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5688 2850 50  0001 C CNN
+F 3 "~" H 5650 3000 50  0001 C CNN
+	1    5650 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
