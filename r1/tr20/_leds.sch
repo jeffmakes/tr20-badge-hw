@@ -382,7 +382,6 @@ F 3 "~" H 1850 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 3650 1700 3650
-NoConn ~ 8350 3350
 Wire Wire Line
 	7400 3350 7750 3350
 Connection ~ 7100 3750
@@ -408,4 +407,8 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8150 2975 50  0001 
 	1    8050 3350
 	1    0    0    -1  
 $EndComp
+Text HLabel 9150 3350 2    50   Output ~ 0
+DOUT
+Wire Wire Line
+	8350 3350 9150 3350
 $EndSCHEMATC

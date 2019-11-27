@@ -199,22 +199,6 @@ F 4 "ESD5Z5.0VC" V 4450 3450 50  0001 C CNN "MPN"
 $EndComp
 Connection ~ 3750 3100
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5E18A39B
-P 3050 3700
-AR Path="/5E18A39B" Ref="TP?"  Part="1" 
-AR Path="/5DFB5AB2/5E18A39B" Ref="TP33"  Part="1" 
-F 0 "TP33" V 3004 3888 50  0000 L CNN
-F 1 "TestPoint" V 3095 3888 50  0000 L CNN
-F 2 "jeffmakes-footprints:test-pad-1.4-TH" H 3250 3700 50  0001 C CNN
-F 3 "~" H 3250 3700 50  0001 C CNN
-	1    3050 3700
-	0    1    1    0   
-$EndComp
-Connection ~ 3050 3700
-Wire Wire Line
-	3050 3700 3050 3600
-$Comp
 L j_Connector:USB-C-12 J?
 U 1 1 5E18A3A3
 P 2750 2350
@@ -504,8 +488,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 3600 4450 3900
 Wire Wire Line
-	3050 3700 3050 3900
-Wire Wire Line
 	5650 3200 5650 2900
 Connection ~ 5650 2900
 Wire Wire Line
@@ -535,4 +517,6 @@ F 3 "~" H 5700 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 2600 4450 2600
+Wire Wire Line
+	3050 3600 3050 3900
 $EndSCHEMATC

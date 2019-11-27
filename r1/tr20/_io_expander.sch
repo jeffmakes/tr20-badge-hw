@@ -30,11 +30,6 @@ Text Label 5600 3850 0    50   ~ 0
 JOY_C
 Wire Wire Line
 	6900 3750 6950 3750
-NoConn ~ 3650 2750
-NoConn ~ 3650 2650
-NoConn ~ 3650 2550
-NoConn ~ 3650 2450
-NoConn ~ 3650 2350
 $Comp
 L power:GND #PWR040
 U 1 1 5C521BB2
@@ -251,14 +246,6 @@ F 8 "EG5858-ND" H 6550 3850 50  0001 L BNN "Field8"
 	1    6550 3850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3750 2150 2    50   Output ~ 0
-IQ_RESET
-Wire Wire Line
-	3650 2150 3750 2150
-Text GLabel 3750 2050 2    50   Output ~ 0
-CC_RESET
-Wire Wire Line
-	3750 2050 3650 2050
 Wire Wire Line
 	2050 2300 2050 2150
 Wire Wire Line
@@ -333,8 +320,6 @@ Wire Wire Line
 	6650 2150 6650 2250
 Wire Wire Line
 	8150 2150 8150 2250
-Text GLabel 3750 2250 2    50   Input ~ 0
-SD_DETECT
 Wire Wire Line
 	3050 1750 3050 1850
 $Comp
@@ -348,6 +333,64 @@ F 3 "" H 3050 2800 50  0001 C CNN
 	1    3050 2800
 	1    0    0    -1  
 $EndComp
+Text HLabel 3950 2350 2    50   BiDi ~ 0
+P1_3
+Text HLabel 3950 2250 2    50   BiDi ~ 0
+P1_2
+Text HLabel 3950 2150 2    50   BiDi ~ 0
+P1_1
+Text HLabel 3950 2050 2    50   BiDi ~ 0
+P1_0
 Wire Wire Line
-	3750 2250 3650 2250
+	3650 2050 3950 2050
+Wire Wire Line
+	3650 2150 3950 2150
+Wire Wire Line
+	3650 2250 3950 2250
+Wire Wire Line
+	3650 2350 3950 2350
+$Comp
+L Connector:TestPoint TP34
+U 1 1 5DEC7783
+P 3650 2450
+F 0 "TP34" V 3604 2638 50  0000 L CNN
+F 1 "~" V 3695 2638 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2450 50  0001 C CNN
+F 3 "~" H 3850 2450 50  0001 C CNN
+	1    3650 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP35
+U 1 1 5DEC98A8
+P 3650 2550
+F 0 "TP35" V 3604 2738 50  0000 L CNN
+F 1 "~" V 3695 2738 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2550 50  0001 C CNN
+F 3 "~" H 3850 2550 50  0001 C CNN
+	1    3650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP36
+U 1 1 5DECA4C9
+P 3650 2650
+F 0 "TP36" V 3604 2838 50  0000 L CNN
+F 1 "~" V 3695 2838 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2650 50  0001 C CNN
+F 3 "~" H 3850 2650 50  0001 C CNN
+	1    3650 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP37
+U 1 1 5DECAD34
+P 3650 2750
+F 0 "TP37" V 3604 2938 50  0000 L CNN
+F 1 "~" V 3695 2938 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2750 50  0001 C CNN
+F 3 "~" H 3850 2750 50  0001 C CNN
+	1    3650 2750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

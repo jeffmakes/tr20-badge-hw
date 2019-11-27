@@ -19,61 +19,34 @@ Comment8 ""
 Comment9 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J?
 U 1 1 5DCCFB81
-P 5700 3050
+P 5950 2450
 AR Path="/5DCCFB81" Ref="J?"  Part="1" 
 AR Path="/5DCC33E4/5DCCFB81" Ref="J7"  Part="1" 
-F 0 "J7" H 5750 3357 50  0000 C CNN
-F 1 "M20-7870246" H 5750 3266 50  0000 C CNN
-F 2 "jeffmakes-footprints:PinSocket_2x02_P2.54mm_Vertical_mirror_numbering" H 5700 3050 50  0001 C CNN
-F 3 "~" H 5700 3050 50  0001 C CNN
-F 4 "Shitty Addon interface" H 5750 3175 50  0000 C CNN "purpose"
-	1    5700 3050
-	1    0    0    -1  
+F 0 "J7" H 6000 2757 50  0000 C CNN
+F 1 "M20-7870246" H 6000 2666 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5950 2450 50  0001 C CNN
+F 3 "~" H 5950 2450 50  0001 C CNN
+F 4 "SAO.69" H 6000 2200 50  0000 C CNN "purpose"
+	1    5950 2450
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DCCFB87
-P 5300 3250
+P 5850 2750
 AR Path="/5DCCFB87" Ref="#PWR?"  Part="1" 
 AR Path="/5DCC33E4/5DCCFB87" Ref="#PWR075"  Part="1" 
-F 0 "#PWR075" H 5300 3000 50  0001 C CNN
-F 1 "GND" H 5305 3077 50  0000 C CNN
-F 2 "" H 5300 3250 50  0001 C CNN
-F 3 "" H 5300 3250 50  0001 C CNN
-	1    5300 3250
+F 0 "#PWR075" H 5850 2500 50  0001 C CNN
+F 1 "GND" H 5855 2577 50  0000 C CNN
+F 2 "" H 5850 2750 50  0001 C CNN
+F 3 "" H 5850 2750 50  0001 C CNN
+	1    5850 2750
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5DCCFB8D
-P 5300 2850
-AR Path="/5DCCFB8D" Ref="#PWR?"  Part="1" 
-AR Path="/5DCC33E4/5DCCFB8D" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 5300 2700 50  0001 C CNN
-F 1 "+3.3V" H 5315 3023 50  0000 C CNN
-F 2 "" H 5300 2850 50  0001 C CNN
-F 3 "" H 5300 2850 50  0001 C CNN
-	1    5300 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5300 3250 5300 3150
-Wire Wire Line
-	5300 3150 5500 3150
-Wire Wire Line
-	5300 2850 5300 3050
-Wire Wire Line
-	5300 3050 5500 3050
-Wire Wire Line
-	6000 3050 6300 3050
-Wire Wire Line
-	6000 3150 6300 3150
-Text Label 6150 3050 0    50   ~ 0
-SDA
-Text Label 6150 3150 0    50   ~ 0
-SCL
+	5950 2750 5950 2950
 $Comp
 L Device:D_TVS D?
 U 1 1 5DCDCD5F
@@ -166,8 +139,31 @@ Text Label 5700 4150 1    50   ~ 0
 SDA
 Text Label 6050 4150 1    50   ~ 0
 SCL
-Text HLabel 6300 3050 2    50   BiDi ~ 0
-SDA
-Text HLabel 6300 3150 2    50   Input ~ 0
+Text HLabel 5950 2950 3    50   Input ~ 0
 SCL
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DCCFB8D
+P 5850 2250
+AR Path="/5DCCFB8D" Ref="#PWR?"  Part="1" 
+AR Path="/5DCC33E4/5DCCFB8D" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 5850 2100 50  0001 C CNN
+F 1 "+3.3V" H 5800 2400 50  0000 C CNN
+F 2 "" H 5850 2250 50  0001 C CNN
+F 3 "" H 5850 2250 50  0001 C CNN
+	1    5850 2250
+	1    0    0    -1  
+$EndComp
+Text HLabel 5950 2050 1    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	5950 2250 5950 2050
+Text HLabel 6050 2050 1    50   BiDi ~ 0
+GPIO1
+Text HLabel 6050 2950 3    50   BiDi ~ 0
+GPIO2
+Wire Wire Line
+	6050 2950 6050 2750
+Wire Wire Line
+	6050 2250 6050 2050
 $EndSCHEMATC
