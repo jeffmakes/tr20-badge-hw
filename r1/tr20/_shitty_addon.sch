@@ -45,8 +45,6 @@ F 3 "" H 5850 2750 50  0001 C CNN
 	1    5850 2750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 2750 5950 2950
 $Comp
 L Device:D_TVS D?
 U 1 1 5DCDCD5F
@@ -139,7 +137,7 @@ Text Label 5700 4150 1    50   ~ 0
 SDA
 Text Label 6050 4150 1    50   ~ 0
 SCL
-Text HLabel 5950 2950 3    50   Input ~ 0
+Text HLabel 5950 3050 3    50   Input ~ 0
 SCL
 $Comp
 L power:+3.3V #PWR?
@@ -154,16 +152,68 @@ F 3 "" H 5850 2250 50  0001 C CNN
 	1    5850 2250
 	1    0    0    -1  
 $EndComp
-Text HLabel 5950 2050 1    50   BiDi ~ 0
+Text HLabel 6050 3050 3    50   BiDi ~ 0
+GPIO2
+$Comp
+L Device:D_TVS D?
+U 1 1 5DFD12CD
+P 6350 4350
+AR Path="/5DFD12CD" Ref="D?"  Part="1" 
+AR Path="/5DCC33E4/5DFD12CD" Ref="D11"  Part="1" 
+F 0 "D11" H 6350 4450 50  0000 L CNN
+F 1 " ESD5Z6.0T5G" H 6150 4550 50  0000 L CNN
+F 2 "jeffmakes-footprints:SOD-523-numbered-pads" H 6350 4350 50  0001 C CNN
+F 3 "~" H 6350 4350 50  0001 C CNN
+F 4 "ESD5Z5.0VC" V 6350 4350 50  0001 C CNN "MPN"
+	1    6350 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 5DFD12DC
+P 6700 4350
+AR Path="/5DFD12DC" Ref="D?"  Part="1" 
+AR Path="/5DCC33E4/5DFD12DC" Ref="D12"  Part="1" 
+F 0 "D12" H 6700 4450 50  0000 L CNN
+F 1 " ESD5Z6.0T5G" H 6500 4550 50  0000 L CNN
+F 2 "jeffmakes-footprints:SOD-523-numbered-pads" H 6700 4350 50  0001 C CNN
+F 3 "~" H 6700 4350 50  0001 C CNN
+F 4 "ESD5Z5.0VC" V 6700 4350 50  0001 C CNN "MPN"
+	1    6700 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 4550 6350 4550
+Wire Wire Line
+	6350 4550 6350 4500
+Connection ~ 6050 4550
+Wire Wire Line
+	6350 4550 6700 4550
+Wire Wire Line
+	6700 4550 6700 4500
+Connection ~ 6350 4550
+Wire Wire Line
+	6350 4200 6350 4000
+Wire Wire Line
+	6700 4200 6700 4000
+Text Label 6050 2775 3    50   ~ 0
+GPIO2
+Text Label 6050 2025 3    50   ~ 0
+GPIO1
+Wire Wire Line
+	6050 2250 6050 1950
+Text HLabel 6050 1950 1    50   BiDi ~ 0
+GPIO1
+Wire Wire Line
+	5950 2250 5950 1950
+Text HLabel 5950 1950 1    50   BiDi ~ 0
 SDA
 Wire Wire Line
-	5950 2250 5950 2050
-Text HLabel 6050 2050 1    50   BiDi ~ 0
+	5950 2750 5950 3050
+Wire Wire Line
+	6050 2750 6050 3050
+Text Label 6350 4000 3    50   ~ 0
 GPIO1
-Text HLabel 6050 2950 3    50   BiDi ~ 0
+Text Label 6700 4000 3    50   ~ 0
 GPIO2
-Wire Wire Line
-	6050 2950 6050 2750
-Wire Wire Line
-	6050 2250 6050 2050
 $EndSCHEMATC
