@@ -1,4 +1,4 @@
-update=Tue 26 Nov 2019 13:50:44 CST
+update=Wed 27 Nov 2019 17:56:13 CST
 version=1
 last_client=kicad
 [general]
@@ -38,7 +38,7 @@ AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2
-MinViaDiameter=0.5
+MinViaDiameter=0.6
 MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
@@ -52,7 +52,7 @@ TrackWidth5=0.45
 TrackWidth6=0.6
 ViaDiameter1=0.8
 ViaDrill1=0.4
-ViaDiameter2=0.5
+ViaDiameter2=0.6
 ViaDrill2=0.3
 dPairWidth1=0.2
 dPairGap1=0.25
@@ -88,11 +88,11 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
+Name=3.3V
 Type=2
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
@@ -252,7 +252,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.125
+Clearance=0.15
 TrackWidth=0.3
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -263,7 +263,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=display_connector
-Clearance=0.125
+Clearance=0.15
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -274,7 +274,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=power
-Clearance=0.125
+Clearance=0.15
 TrackWidth=0.6
 ViaDiameter=0.8
 ViaDrill=0.4
