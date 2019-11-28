@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 375)
+    (drawings 374)
     (tracks 2092)
     (modules 220)
     (nets 148)
@@ -18,7 +18,7 @@
     (33 "F.Adhes" user hide)
     (34 "B.Paste" user hide)
     (35 "F.Paste" user hide)
-    (36 "B.SilkS" user hide)
+    (36 "B.SilkS" user)
     (37 "F.SilkS" user)
     (38 "B.Mask" user hide)
     (39 "F.Mask" user hide)
@@ -11317,9 +11317,6 @@
   )
   (gr_text "Charging\n" (at 18.5 -99) (layer "B.SilkS")
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
-  (gr_text "BACK" (at 29.9 -164.8) (layer "B.SilkS")
-    (effects (font (size 8 8) (thickness 1)) (justify mirror))
   )
   (gr_line (start 32.600001 -61.5) (end 34.250001 -59.85) (layer "F.SilkS") (width 0.5) (tstamp 5C58CD40))
   (gr_line (start 34.250001 -59.85) (end 34.250001 -60.975461) (layer "F.SilkS") (width 0.5) (tstamp 5C58CCFB))
