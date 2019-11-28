@@ -1330,4 +1330,70 @@ Wire Wire Line
 	7250 5000 7700 5000
 Text Label 7250 5000 0    50   ~ 0
 SAO_GPIO2
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5DE28069
+P 7250 5750
+F 0 "FID1" H 7335 5796 50  0000 L CNN
+F 1 "Fiducial" H 7335 5705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7250 5750 50  0001 C CNN
+F 3 "~" H 7250 5750 50  0001 C CNN
+	1    7250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5DE33C25
+P 7250 5950
+F 0 "FID2" H 7335 5996 50  0000 L CNN
+F 1 "Fiducial" H 7335 5905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7250 5950 50  0001 C CNN
+F 3 "~" H 7250 5950 50  0001 C CNN
+	1    7250 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5DE36EE2
+P 7250 6150
+F 0 "FID3" H 7335 6196 50  0000 L CNN
+F 1 "Fiducial" H 7335 6105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7250 6150 50  0001 C CNN
+F 3 "~" H 7250 6150 50  0001 C CNN
+	1    7250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 5DE37CE0
+P 7750 5750
+F 0 "FID4" H 7835 5796 50  0000 L CNN
+F 1 "Fiducial" H 7835 5705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7750 5750 50  0001 C CNN
+F 3 "~" H 7750 5750 50  0001 C CNN
+	1    7750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 5DE39A64
+P 7750 5950
+F 0 "FID5" H 7835 5996 50  0000 L CNN
+F 1 "Fiducial" H 7835 5905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7750 5950 50  0001 C CNN
+F 3 "~" H 7750 5950 50  0001 C CNN
+	1    7750 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 5DE3AF4E
+P 7750 6150
+F 0 "FID6" H 7835 6196 50  0000 L CNN
+F 1 "Fiducial" H 7835 6105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7750 6150 50  0001 C CNN
+F 3 "~" H 7750 6150 50  0001 C CNN
+	1    7750 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
