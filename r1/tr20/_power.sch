@@ -335,17 +335,6 @@ F 3 "" H 6350 5450 50  0001 C CNN
 	1    6350 5450
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky D3
-U 1 1 5C4EE399
-P 7100 3600
-F 0 "D3" H 7100 3384 50  0000 C CNN
-F 1 "SS13FL " H 7100 3475 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 7100 3600 50  0001 C CNN
-F 3 "~" H 7100 3600 50  0001 C CNN
-	1    7100 3600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5950 2100 5950 2250
 Connection ~ 5950 2250
@@ -619,4 +608,18 @@ Wire Wire Line
 	3700 3700 3450 3700
 Wire Wire Line
 	5150 2400 5950 2400
+$Comp
+L Device:D_Schottky D?
+U 1 1 5E5B5CB1
+P 7100 3600
+AR Path="/5E5B5CB1" Ref="D?"  Part="1" 
+AR Path="/5E536877/5E5B5CB1" Ref="D9"  Part="1" 
+AR Path="/5DDABA4A/5E5B5CB1" Ref="D3"  Part="1" 
+F 0 "D3" H 7100 3384 50  0000 C CNN
+F 1 "SS13FL" H 7100 3475 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7100 3600 50  0001 C CNN
+F 3 "~" H 7100 3600 50  0001 C CNN
+	1    7100 3600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
