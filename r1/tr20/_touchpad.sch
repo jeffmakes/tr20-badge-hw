@@ -91,11 +91,11 @@ Wire Wire Line
 Wire Wire Line
 	6500 3550 6750 3550
 Text Label 6550 3950 0    50   ~ 0
-Rx4A
+Rx9A
 Text Label 6550 3650 0    50   ~ 0
-Rx7A
+Rx6A
 Text Label 6550 3550 0    50   ~ 0
-Rx8A
+Rx5A
 Wire Wire Line
 	6500 5250 6800 5250
 Wire Wire Line
@@ -347,9 +347,9 @@ Wire Wire Line
 Wire Wire Line
 	7150 4500 7400 4500
 Text Label 7150 4500 0    50   ~ 0
-Rx9A
+Rx4A
 Text Label 7150 4600 0    50   ~ 0
-Rx8A
+Rx5A
 $Comp
 L power:GND #PWR072
 U 1 1 5D14CB82
@@ -428,13 +428,11 @@ Wire Wire Line
 Wire Wire Line
 	7700 4150 7700 3900
 Text Label 7150 5000 0    50   ~ 0
-Rx4A
+Rx9A
 Text Label 7150 4900 0    50   ~ 0
-Rx5A
-Text Label 7150 4800 0    50   ~ 0
-Rx6A
+Rx8A
 Text Label 7150 4700 0    50   ~ 0
-Rx7A
+Rx6A
 Wire Wire Line
 	7400 5000 7150 5000
 Wire Wire Line
@@ -444,13 +442,13 @@ Wire Wire Line
 Wire Wire Line
 	7400 4700 7150 4700
 Text Label 6550 3450 0    50   ~ 0
-Rx9A
+Rx4A
 Wire Wire Line
 	6500 3450 6750 3450
 Text Label 6550 3750 0    50   ~ 0
-Rx6A
+Rx7A
 Text Label 6550 3850 0    50   ~ 0
-Rx5A
+Rx8A
 Wire Wire Line
 	6500 3850 6750 3850
 NoConn ~ 2650 4900
@@ -515,4 +513,6 @@ F 5 "CNC Tech" H 2350 5100 50  0001 C CNN "Manufacturer"
 	1    2350 5100
 	1    0    0    -1  
 $EndComp
+Text Label 7150 4800 0    50   ~ 0
+Rx7A
 $EndSCHEMATC
