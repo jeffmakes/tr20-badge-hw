@@ -593,27 +593,8 @@ Wire Wire Line
 	6450 3000 6450 4600
 Wire Wire Line
 	6350 5200 6350 5450
-$Comp
-L Jumper:Jumper_2_Bridged JP1
-U 1 1 5E52B746
-P 5500 2400
-F 0 "JP1" H 5500 2595 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5500 2504 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5500 2400 50  0001 C CNN
-F 3 "~" H 5500 2400 50  0001 C CNN
-	1    5500 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 2250 5950 2400
-Wire Wire Line
-	5700 2400 5950 2400
-Wire Wire Line
-	5300 2400 5150 2400
-Wire Wire Line
-	5300 2400 5700 2400
-Connection ~ 5300 2400
-Connection ~ 5700 2400
 Wire Wire Line
 	3000 2600 3000 3300
 $Comp
@@ -636,4 +617,6 @@ Wire Wire Line
 Connection ~ 5950 2400
 Wire Wire Line
 	3700 3700 3450 3700
+Wire Wire Line
+	5150 2400 5950 2400
 $EndSCHEMATC
