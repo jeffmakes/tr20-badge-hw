@@ -7,5 +7,6 @@
 - Gerbv error "84 bad end quote in element"
 - Incomplete placement data - e.g. missing top side buttons...
 - Switch to THT SMA.
+- Switch to 20 pin CP2102.
 
 - Antenna testing - Tom?
