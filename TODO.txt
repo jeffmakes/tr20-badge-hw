@@ -1,12 +1,8 @@
-- Fix via tenting on touch array
-- Set mask/paste clearances to 0 - let the fab choose
-- Remove silk pin marks from LEDs
-- Reconsider SAO position.
-- Space out buttons / joystick now the lanyard holes are gone
 - Add X-Ray Challenge
 - Gerbv error "84 bad end quote in element"
 - Incomplete placement data - e.g. missing top side buttons...
 - Switch to THT SMA.
 - Switch to 20 pin CP2102.
+- FFC footprint - decouple from display, select correct footprint
 
 - Antenna testing - Tom?
