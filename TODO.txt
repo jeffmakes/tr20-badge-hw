@@ -1,8 +1,9 @@
 - Add X-Ray Challenge
 - Gerbv error "84 bad end quote in element"
 - Incomplete placement data - e.g. missing top side buttons...
-- Switch to THT SMA.
 - Switch to 20 pin CP2102.
 - FFC footprint - decouple from display, select correct footprint
+- Keyboard silk
+- Move display up (shit).
 
 - Antenna testing - Tom?

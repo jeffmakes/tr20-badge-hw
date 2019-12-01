@@ -670,7 +670,7 @@ U 1 1 5DE93FF4
 P 7450 5850
 F 0 "J8" V 7332 5950 50  0000 L CNN
 F 1 "DNP" V 7423 5950 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical" H 7450 5850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291-12_Vertical" H 7450 5850 50  0001 C CNN
 F 3 " ~" H 7450 5850 50  0001 C CNN
 	1    7450 5850
 	0    1    1    0   
