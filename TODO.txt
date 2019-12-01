@@ -1,3 +1,11 @@
-- BOM reduction - rationalise some passive values
+- Fix via tenting on touch array
+- Set mask/paste clearances to 0 - let the fab choose
+- Remove silk pin marks from LEDs
+- Reconsider SAO position.
+- Space out buttons / joystick now the lanyard holes are gone
+- Add X-Ray Challenge
+- Gerbv error "84 bad end quote in element"
+- Incomplete placement data - e.g. missing top side buttons...
+- Switch to THT SMA.
+
 - Antenna testing - Tom?
-- Check global label nets are working ok. (CC_RESET, etc).
