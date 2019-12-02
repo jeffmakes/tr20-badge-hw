@@ -19,17 +19,6 @@ Comment8 ""
 Comment9 ""
 $EndDescr
 $Comp
-L j_Display:GDEH029A1 U5
-U 1 1 5F62887B
-P 3050 4100
-F 0 "U5" H 3328 4146 50  0000 L CNN
-F 1 "GDEH029A1" H 3328 4055 50  0000 L CNN
-F 2 "jeffmakes-footprints:GDEH029A1" H 3350 4150 50  0001 C CNN
-F 3 "" H 3350 4150 50  0001 C CNN
-	1    3050 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 5E5B5C73
 P 5650 4250
@@ -150,10 +139,10 @@ Text Label 6350 4000 0    50   ~ 0
 PREVGH
 $Comp
 L Device:D_Schottky D?
-U 1 1 5E5B5CB1
+U 1 1 5DF0643C
 P 6000 3350
-AR Path="/5E5B5CB1" Ref="D?"  Part="1" 
-AR Path="/5E536877/5E5B5CB1" Ref="D9"  Part="1" 
+AR Path="/5DF0643C" Ref="D?"  Part="1" 
+AR Path="/5E536877/5DF0643C" Ref="D9"  Part="1" 
 F 0 "D9" H 6000 3134 50  0000 C CNN
 F 1 "SS13FL" H 6000 3225 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 6000 3350 50  0001 C CNN
@@ -587,4 +576,27 @@ F 3 "~" H 6500 4450 50  0001 C CNN
 $EndComp
 Text Notes 7700 3550 0    50   ~ 0
 C13-C24 all 50V
+$Comp
+L Connector_Generic:Conn_01x24 J5
+U 1 1 5DF00479
+P 2850 4150
+F 0 "J5" H 2768 2725 50  0000 C CNN
+F 1 "Conn_01x24" H 2768 2816 50  0000 C CNN
+F 2 "jeffmakes-footprints:AFC07x24-1MP_P0.5mm_Horizontal" H 2850 4150 50  0001 C CNN
+F 3 "~" H 2850 4150 50  0001 C CNN
+	1    2850 4150
+	1    0    0    1   
+$EndComp
+NoConn ~ 2650 2950
+$Comp
+L j_Display:Display_dummy U5
+U 1 1 5DF18AE2
+P 3850 2650
+F 0 "U5" H 4228 2696 50  0000 L CNN
+F 1 "Display_dummy" H 4228 2605 50  0000 L CNN
+F 2 "jeffmakes-footprints:GDEH029A1" H 3850 2650 50  0001 C CNN
+F 3 "" H 3850 2650 50  0001 C CNN
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
