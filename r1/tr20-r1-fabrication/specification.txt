@@ -1,0 +1,39 @@
+PCB specification
+-----------------
+Material: 4-layer, 1.6mm, FR4, controlled impedance, tented vias.
+
+Resist: [rev1 prototype] Matte black / black preferred, others ok. Dry-film/LPI/inkjet preferred, silkscreen ok
+Legend: [rev1 prototype] Yellow preferred / white ok, dry-film/LPI/inkjet preferred, silkscreen ok.
+Finish: [rev1 prototype] ENIG/IS preferred
+
+Resist: [rev2 prototype, rev3 production] Matte black. Dry-film/LPI/inkjet
+Legend: [rev2 prototype, rev3 production] Custom orange-yellow Pantone 1375C, dry-film/LPI/inkjet
+Finish: [rev2 prototype, rev3 production] ENIG/IS
+
+Stack-up
+--------
+Controlled impedance: confirm stackup spec. 
+F.Cu - top side
+In1.Cu - inner 1 (power)
+In2.Cu - inner 2 (gnd)
+B.Cu - bottom side
+
+Assembly
+--------
+Top SMT THT, Bottom SMT
+
+Contact
+-------
+
+Invoice to:
+Jeff Gough
+Monad Gottfried Ltd.
+3 Essex Park Mews, London
+purchase@monad.is
++447903005844
+Wechat: +8618529577498
+
+Shipping to:
+Jeff Gough
+深圳市福田区华强北路华强广场大厦B栋7楼华强北国际创客中心前台
+
