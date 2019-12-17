@@ -303,11 +303,6 @@ Wire Wire Line
 Connection ~ 6200 1450
 Wire Wire Line
 	6200 1450 6850 1450
-Wire Wire Line
-	6850 1450 6950 1450
-Wire Wire Line
-	6950 1450 6950 1700
-Connection ~ 6850 1450
 $Comp
 L power:GND #PWR037
 U 1 1 5C4C4FD7
@@ -403,7 +398,6 @@ Wire Wire Line
 	7550 2200 7900 2200
 NoConn ~ 6350 2300
 NoConn ~ 6350 2400
-NoConn ~ 7550 2000
 NoConn ~ 7550 2100
 NoConn ~ 7550 2500
 NoConn ~ 7550 2700
@@ -494,17 +488,6 @@ Wire Wire Line
 	5650 3800 5650 3900
 NoConn ~ 7550 3200
 $Comp
-L Interface_USB:CP2102N-A01-GQFN24 U3
-U 1 1 5F628846
-P 6950 2600
-F 0 "U3" H 7050 3550 50  0000 C CNN
-F 1 "CP2102N-A01-GQFN24" H 7450 3450 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 7400 1800 50  0001 L CNN
-F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 7000 1550 50  0001 C CNN
-	1    6950 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C11
 U 1 1 5C637622
 P 5700 1700
@@ -519,4 +502,21 @@ Wire Wire Line
 	3500 2600 4450 2600
 Wire Wire Line
 	3050 3600 3050 3900
+Connection ~ 6850 1450
+Wire Wire Line
+	6850 1450 6950 1450
+Wire Wire Line
+	6950 1450 6950 1700
+NoConn ~ 7550 2000
+$Comp
+L Interface_USB:CP2102N-A01-GQFN24 U3
+U 1 1 5F628846
+P 6950 2600
+F 0 "U3" H 7050 3550 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN24" H 7450 3450 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 7400 1800 50  0001 L CNN
+F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 7000 1550 50  0001 C CNN
+	1    6950 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

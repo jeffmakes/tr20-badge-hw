@@ -318,7 +318,7 @@ L j_RF_Module:ESP32-WROVER-I A1
 U 1 1 5C471AB5
 P 3200 2450
 F 0 "A1" H 3200 3817 50  0000 C CNN
-F 1 "ESP32-WROVER-I" H 3200 3726 50  0000 C CNN
+F 1 "ESP32-WROVER" H 3200 3726 50  0000 C CNN
 F 2 "jeffmakes-footprints:ESP32-WROVER-I" H 3200 2450 50  0001 L BNN
 F 3 "Module Espressif Systems" H 3200 2450 50  0001 L BNN
 F 4 "https://www.digikey.com/product-detail/en/espressif-systems/ESP32-WROVER-I/1904-1008-1-ND/8544303?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3200 2450 50  0001 L BNN "Field4"
