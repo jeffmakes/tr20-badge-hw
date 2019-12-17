@@ -1,0 +1,389 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L Audio:PCM5100 U8
+U 1 1 5DD6B063
+P 5350 3950
+F 0 "U8" H 5550 4650 50  0000 C CNN
+F 1 "PCM5100A" H 5700 4550 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5300 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/pcm5100.pdf" H 5300 4700 50  0001 C CNN
+	1    5350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C44
+U 1 1 5DD6C36D
+P 6850 4650
+F 0 "C44" H 6965 4696 50  0000 L CNN
+F 1 "1uF" H 6965 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 4500 50  0001 C CNN
+F 3 "~" H 6850 4650 50  0001 C CNN
+	1    6850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C42
+U 1 1 5DD6C7CA
+P 6400 4650
+F 0 "C42" H 6515 4696 50  0000 L CNN
+F 1 "100nF" H 6515 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 4500 50  0001 C CNN
+F 3 "~" H 6400 4650 50  0001 C CNN
+	1    6400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4350 6400 4350
+Wire Wire Line
+	6850 4350 6850 4500
+Wire Wire Line
+	6400 4500 6400 4350
+Connection ~ 6400 4350
+Wire Wire Line
+	6400 4350 6850 4350
+Wire Wire Line
+	6400 4800 6400 4850
+Wire Wire Line
+	6400 4850 6850 4850
+Wire Wire Line
+	6850 4850 6850 4800
+$Comp
+L power:GND #PWR090
+U 1 1 5DD6D394
+P 6850 4900
+F 0 "#PWR090" H 6850 4650 50  0001 C CNN
+F 1 "GND" H 6855 4727 50  0000 C CNN
+F 2 "" H 6850 4900 50  0001 C CNN
+F 3 "" H 6850 4900 50  0001 C CNN
+	1    6850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4850 6850 4900
+Connection ~ 6850 4850
+Text Label 6650 4350 0    50   ~ 0
+LDO0
+$Comp
+L Device:C C43
+U 1 1 5DD76FCD
+P 6550 3000
+F 0 "C43" H 6665 3046 50  0000 L CNN
+F 1 "1uF" H 6665 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 2850 50  0001 C CNN
+F 3 "~" H 6550 3000 50  0001 C CNN
+	1    6550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C41
+U 1 1 5DD76FD3
+P 6100 3000
+F 0 "C41" H 6215 3046 50  0000 L CNN
+F 1 "100nF" H 6215 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6138 2850 50  0001 C CNN
+F 3 "~" H 6100 3000 50  0001 C CNN
+	1    6100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2800 6550 2850
+Wire Wire Line
+	6100 2850 6100 2800
+Connection ~ 6100 2800
+Wire Wire Line
+	6100 2800 6550 2800
+Wire Wire Line
+	6100 3150 6100 3200
+Wire Wire Line
+	6100 3200 6550 3200
+Wire Wire Line
+	6550 3200 6550 3150
+$Comp
+L power:GND #PWR089
+U 1 1 5DD76FE1
+P 6550 3250
+F 0 "#PWR089" H 6550 3000 50  0001 C CNN
+F 1 "GND" H 6555 3077 50  0000 C CNN
+F 2 "" H 6550 3250 50  0001 C CNN
+F 3 "" H 6550 3250 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3200 6550 3250
+Connection ~ 6550 3200
+Wire Wire Line
+	5450 3350 5450 2800
+Wire Wire Line
+	5450 2800 5650 2800
+Wire Wire Line
+	5350 2800 5450 2800
+Connection ~ 5450 2800
+Wire Wire Line
+	5350 2800 5350 3350
+$Comp
+L power:+3.3V #PWR088
+U 1 1 5DD77C5B
+P 6550 2700
+F 0 "#PWR088" H 6550 2550 50  0001 C CNN
+F 1 "+3.3V" H 6565 2873 50  0000 C CNN
+F 2 "" H 6550 2700 50  0001 C CNN
+F 3 "" H 6550 2700 50  0001 C CNN
+	1    6550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2700 6550 2800
+Connection ~ 6550 2800
+$Comp
+L Device:C C40
+U 1 1 5DD78554
+P 6050 4000
+F 0 "C40" H 6165 4046 50  0000 L CNN
+F 1 "1uF" H 6165 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6088 3850 50  0001 C CNN
+F 3 "~" H 6050 4000 50  0001 C CNN
+	1    6050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3850 6050 3850
+Wire Wire Line
+	5850 4150 6050 4150
+$Comp
+L Device:C C39
+U 1 1 5DD79996
+P 6000 4650
+F 0 "C39" H 6115 4696 50  0000 L CNN
+F 1 "1uF" H 6115 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 4500 50  0001 C CNN
+F 3 "~" H 6000 4650 50  0001 C CNN
+	1    6000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4450 6000 4450
+Wire Wire Line
+	6000 4450 6000 4500
+Wire Wire Line
+	6000 4800 6000 4850
+Wire Wire Line
+	6000 4850 5450 4850
+Wire Wire Line
+	5250 4850 5250 4650
+Wire Wire Line
+	5350 4650 5350 4850
+Connection ~ 5350 4850
+Wire Wire Line
+	5350 4850 5250 4850
+Wire Wire Line
+	5450 4650 5450 4850
+Connection ~ 5450 4850
+Wire Wire Line
+	5450 4850 5350 4850
+Wire Wire Line
+	6000 4850 6400 4850
+Connection ~ 6000 4850
+Connection ~ 6400 4850
+Wire Wire Line
+	4850 3550 4400 3550
+Text Label 4400 3550 0    50   ~ 0
+I2S_WS
+Wire Wire Line
+	4850 3750 4400 3750
+Text Label 4400 3750 0    50   ~ 0
+I2S_SCK
+Wire Wire Line
+	4850 3650 4400 3650
+Text Label 4400 3650 0    50   ~ 0
+I2S_SD
+$Comp
+L power:GND #PWR083
+U 1 1 5DD856BC
+P 4850 3850
+F 0 "#PWR083" H 4850 3600 50  0001 C CNN
+F 1 "GND" V 4855 3722 50  0000 R CNN
+F 2 "" H 4850 3850 50  0001 C CNN
+F 3 "" H 4850 3850 50  0001 C CNN
+	1    4850 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR084
+U 1 1 5DD85EB9
+P 4850 4050
+F 0 "#PWR084" H 4850 3800 50  0001 C CNN
+F 1 "GND" V 4855 3922 50  0000 R CNN
+F 2 "" H 4850 4050 50  0001 C CNN
+F 3 "" H 4850 4050 50  0001 C CNN
+	1    4850 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR087
+U 1 1 5DD86157
+P 4850 4350
+F 0 "#PWR087" H 4850 4100 50  0001 C CNN
+F 1 "GND" V 4855 4222 50  0000 R CNN
+F 2 "" H 4850 4350 50  0001 C CNN
+F 3 "" H 4850 4350 50  0001 C CNN
+	1    4850 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR085
+U 1 1 5DD865BC
+P 4850 4150
+F 0 "#PWR085" H 4850 3900 50  0001 C CNN
+F 1 "GND" V 4855 4022 50  0000 R CNN
+F 2 "" H 4850 4150 50  0001 C CNN
+F 3 "" H 4850 4150 50  0001 C CNN
+	1    4850 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR086
+U 1 1 5DD86C43
+P 4850 4250
+F 0 "#PWR086" H 4850 4100 50  0001 C CNN
+F 1 "+3.3V" V 4865 4378 50  0000 L CNN
+F 2 "" H 4850 4250 50  0001 C CNN
+F 3 "" H 4850 4250 50  0001 C CNN
+	1    4850 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 3350 5250 2800
+Wire Wire Line
+	5250 2800 5350 2800
+Connection ~ 5350 2800
+Text HLabel 4400 3550 0    50   Input ~ 0
+I2S_WS
+Text HLabel 4400 3650 0    50   Input ~ 0
+I2S_SD
+Text HLabel 4400 3750 0    50   Input ~ 0
+I2S_SCK
+Wire Wire Line
+	5850 3550 7250 3550
+Wire Wire Line
+	5850 3650 6950 3650
+$Comp
+L power:GND #PWR0117
+U 1 1 5E4364B9
+P 7500 4300
+F 0 "#PWR0117" H 7500 4050 50  0001 C CNN
+F 1 "GND" H 7505 4127 50  0000 C CNN
+F 2 "" H 7500 4300 50  0001 C CNN
+F 3 "" H 7500 4300 50  0001 C CNN
+	1    7500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4300 7500 4250
+$Comp
+L Device:D_TVS D?
+U 1 1 5E43C058
+P 7250 3900
+AR Path="/5E43C058" Ref="D?"  Part="1" 
+AR Path="/5DCC33E4/5E43C058" Ref="D?"  Part="1" 
+AR Path="/5DD6A7F2/5E43C058" Ref="D21"  Part="1" 
+F 0 "D21" H 7250 4000 50  0000 L CNN
+F 1 " ESD5Z6.0T5G" H 7050 4100 50  0000 L CNN
+F 2 "jeffmakes-footprints:SOD-523-numbered-pads" H 7250 3900 50  0001 C CNN
+F 3 "~" H 7250 3900 50  0001 C CNN
+F 4 "ESD5Z5.0VC" V 7250 3900 50  0001 C CNN "MPN"
+	1    7250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 5E44BED9
+P 6950 3900
+AR Path="/5E44BED9" Ref="D?"  Part="1" 
+AR Path="/5DCC33E4/5E44BED9" Ref="D?"  Part="1" 
+AR Path="/5DD6A7F2/5E44BED9" Ref="D20"  Part="1" 
+F 0 "D20" H 6950 4000 50  0000 L CNN
+F 1 " ESD5Z6.0T5G" H 6750 4100 50  0000 L CNN
+F 2 "jeffmakes-footprints:SOD-523-numbered-pads" H 6950 3900 50  0001 C CNN
+F 3 "~" H 6950 3900 50  0001 C CNN
+F 4 "ESD5Z5.0VC" V 6950 3900 50  0001 C CNN "MPN"
+	1    6950 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4050 7250 4250
+Wire Wire Line
+	7250 4250 7500 4250
+Wire Wire Line
+	6950 4050 6950 4250
+Wire Wire Line
+	6950 4250 7250 4250
+Connection ~ 7250 4250
+Connection ~ 6950 3650
+Wire Wire Line
+	6950 3650 7600 3650
+Wire Wire Line
+	6950 3650 6950 3750
+Wire Wire Line
+	7250 3750 7250 3550
+Connection ~ 7250 3550
+Wire Wire Line
+	7250 3550 7600 3550
+$Comp
+L Connector:AudioJack4 J10
+U 1 1 5E48083E
+P 7800 3750
+F 0 "J10" H 7470 3633 50  0000 R CNN
+F 1 "PJ-320D" H 7470 3724 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 7800 3750 50  0001 C CNN
+F 3 "~" H 7800 3750 50  0001 C CNN
+	1    7800 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 3850 7500 3850
+Wire Wire Line
+	7500 3850 7500 4250
+Connection ~ 7500 4250
+NoConn ~ 7600 3750
+Wire Wire Line
+	5650 2800 5650 2850
+Connection ~ 5650 2800
+Wire Wire Line
+	5650 2800 6100 2800
+Wire Wire Line
+	5650 3150 5650 3200
+Wire Wire Line
+	5650 3200 6100 3200
+Connection ~ 6100 3200
+$Comp
+L Device:C C38
+U 1 1 5DF9ACF4
+P 5650 3000
+F 0 "C38" H 5765 3046 50  0000 L CNN
+F 1 "100nF" H 5765 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5688 2850 50  0001 C CNN
+F 3 "~" H 5650 3000 50  0001 C CNN
+	1    5650 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
