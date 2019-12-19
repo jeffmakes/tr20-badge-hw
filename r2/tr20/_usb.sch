@@ -46,17 +46,15 @@ F 3 "" H 3150 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2950 3600 3050 3600
-Wire Wire Line
-	3100 3500 2950 3500
 $Comp
-L j_Connector:UJ2-AH-1-SMT J?
+L Connector:USB_A J?
 U 1 1 5E18A330
 P 2950 5200
 AR Path="/5E18A330" Ref="J?"  Part="1" 
 AR Path="/5DFB5AB2/5E18A330" Ref="J3"  Part="1" 
 F 0 "J3" H 2950 5667 50  0000 C CNN
 F 1 "UJ2-AH-1-SMT" H 2950 5576 50  0000 C CNN
-F 2 "jeffmakes-footprints:jing-lcsc-C46400" H 2950 5200 50  0001 L BNN
+F 2 "jeffmakes-footprints:USB-A-short-body" H 2950 5200 50  0001 L BNN
 F 3 "Standard A type 4 pin Horizontal 3 µin Plating SMT USB 2.0 Jack" H 2950 5200 50  0001 L BNN
 F 4 "CUI Inc." H 2950 5200 50  0001 L BNN "Field4"
 F 5 "https://www.digikey.com/product-detail/en/cui-inc/UJ2-AH-1-SMT-TR/102-4133-1-ND/6595469?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 2950 5200 50  0001 L BNN "Field5"
@@ -65,7 +63,7 @@ F 7 "UJ2-AH-1-SMT-TR" H 2950 5200 50  0001 L BNN "Field7"
 F 8 "https://www.cui.com/product/interconnect/usb-connectors/type-a/uj2-ah-smt-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" H 2950 5200 50  0001 L BNN "Field8"
 F 9 "None" H 2950 5200 50  0001 L BNN "Field9"
 	1    2950 5200
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR?
@@ -80,26 +78,11 @@ F 3 "" H 4450 2200 50  0001 C CNN
 	1    4450 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VBUS #PWR?
-U 1 1 5E18A33C
-P 3100 3500
-AR Path="/5E18A33C" Ref="#PWR?"  Part="1" 
-AR Path="/5DFB5AB2/5E18A33C" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 3100 3350 50  0001 C CNN
-F 1 "VBUS" V 3115 3628 50  0000 L CNN
-F 2 "" H 3100 3500 50  0001 C CNN
-F 3 "" H 3100 3500 50  0001 C CNN
-	1    3100 3500
-	0    1    1    0   
-$EndComp
-NoConn ~ 3350 5100
-NoConn ~ 3350 5200
-NoConn ~ 3350 5000
-NoConn ~ 2950 3400
+NoConn ~ 3250 5200
+NoConn ~ 3250 5300
+NoConn ~ 3250 5000
 NoConn ~ 2950 3300
 NoConn ~ 2950 2700
-NoConn ~ 2950 2800
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5E18A34F
@@ -467,7 +450,7 @@ Wire Wire Line
 	4450 2200 4450 2600
 Wire Wire Line
 	5650 2450 5650 2550
-NoConn ~ 3350 5300
+NoConn ~ 2950 5600
 Connection ~ 4450 2600
 Wire Wire Line
 	4450 2600 4450 3300
@@ -517,6 +500,86 @@ F 1 "CP2102N-A01-GQFN24" H 7450 3450 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 7400 1800 50  0001 L CNN
 F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 7000 1550 50  0001 C CNN
 	1    6950 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3400 3150 3400
+Wire Wire Line
+	2950 2800 3150 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5E0DBAFD
+P 3450 3400
+AR Path="/5E0DBAFD" Ref="#PWR?"  Part="1" 
+AR Path="/5DFB5AB2/5E0DBAFD" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 3450 3150 50  0001 C CNN
+F 1 "GND" H 3455 3227 50  0000 C CNN
+F 2 "" H 3450 3400 50  0001 C CNN
+F 3 "" H 3450 3400 50  0001 C CNN
+	1    3450 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0DE67E
+P 3450 2800
+AR Path="/5E0DE67E" Ref="#PWR?"  Part="1" 
+AR Path="/5DFB5AB2/5E0DE67E" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 3450 2550 50  0001 C CNN
+F 1 "GND" H 3455 2627 50  0000 C CNN
+F 2 "" H 3450 2800 50  0001 C CNN
+F 3 "" H 3450 2800 50  0001 C CNN
+	1    3450 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5E0D7125
+P 3300 3400
+F 0 "R20" V 3400 3450 50  0000 L CNN
+F 1 "5.1k" V 3400 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3230 3400 50  0001 C CNN
+F 3 "~" H 3300 3400 50  0001 C CNN
+	1    3300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5E0D3FD9
+P 3300 2800
+F 0 "R18" V 3400 2850 50  0000 L CNN
+F 1 "5.1k" V 3400 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3230 2800 50  0001 C CNN
+F 3 "~" H 3300 2800 50  0001 C CNN
+	1    3300 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5E18A33C
+P 3100 3500
+AR Path="/5E18A33C" Ref="#PWR?"  Part="1" 
+AR Path="/5DFB5AB2/5E18A33C" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 3100 3350 50  0001 C CNN
+F 1 "VBUS" V 3115 3628 50  0000 L CNN
+F 2 "" H 3100 3500 50  0001 C CNN
+F 3 "" H 3100 3500 50  0001 C CNN
+	1    3100 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 3500 2950 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5E130B18
+P 2850 5600
+AR Path="/5E130B18" Ref="#PWR?"  Part="1" 
+AR Path="/5DFB5AB2/5E130B18" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 2850 5350 50  0001 C CNN
+F 1 "GND" H 2855 5427 50  0000 C CNN
+F 2 "" H 2850 5600 50  0001 C CNN
+F 3 "" H 2850 5600 50  0001 C CNN
+	1    2850 5600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
