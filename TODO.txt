@@ -1,4 +1,6 @@
 - Add X-Ray Challenge
+- Finalise silkscreen - check switch ON/OFF marking. Get right font. - Move LED?
+
 
 
 
