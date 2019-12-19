@@ -348,50 +348,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 2350 3950 2350
 $Comp
-L Connector:TestPoint TP34
-U 1 1 5DEC7783
-P 3650 2450
-F 0 "TP34" V 3604 2638 50  0000 L CNN
-F 1 "~" V 3695 2638 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2450 50  0001 C CNN
-F 3 "~" H 3850 2450 50  0001 C CNN
-	1    3650 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP35
-U 1 1 5DEC98A8
-P 3650 2550
-F 0 "TP35" V 3604 2738 50  0000 L CNN
-F 1 "~" V 3695 2738 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2550 50  0001 C CNN
-F 3 "~" H 3850 2550 50  0001 C CNN
-	1    3650 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP36
-U 1 1 5DECA4C9
-P 3650 2650
-F 0 "TP36" V 3604 2838 50  0000 L CNN
-F 1 "~" V 3695 2838 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2650 50  0001 C CNN
-F 3 "~" H 3850 2650 50  0001 C CNN
-	1    3650 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP37
-U 1 1 5DECAD34
-P 3650 2750
-F 0 "TP37" V 3604 2938 50  0000 L CNN
-F 1 "~" V 3695 2938 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2750 50  0001 C CNN
-F 3 "~" H 3850 2750 50  0001 C CNN
-	1    3650 2750
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C75
 U 1 1 5DE0948D
 P 3700 1500
@@ -437,4 +393,20 @@ Wire Wire Line
 	6200 4050 6150 4050
 Wire Wire Line
 	6150 4050 6150 4150
+Wire Wire Line
+	3650 2450 3950 2450
+Wire Wire Line
+	3650 2550 3950 2550
+Wire Wire Line
+	3650 2650 3950 2650
+Wire Wire Line
+	3650 2750 3950 2750
+Text HLabel 3950 2450 2    50   BiDi ~ 0
+P1_4
+Text HLabel 3950 2550 2    50   BiDi ~ 0
+P1_5
+Text HLabel 3950 2650 2    50   BiDi ~ 0
+P1_6
+Text HLabel 3950 2750 2    50   BiDi ~ 0
+P1_7
 $EndSCHEMATC
