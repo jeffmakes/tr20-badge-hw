@@ -295,7 +295,7 @@ Connection ~ 3300 2850
 Wire Wire Line
 	3300 2850 3300 2950
 Connection ~ 2950 3350
-Text HLabel 1500 3650 0    50   Input ~ 0
+Text HLabel 2300 3350 0    50   Input ~ 0
 DIN
 $Comp
 L LED:SK6812 D?
@@ -321,56 +321,8 @@ F 3 "~" H 5250 4750 50  0001 C CNN
 	1    5250 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L dk_Transistors-Bipolar-BJT-Single:MMBT3904-TP Q?
-U 1 1 5E3300F1
-P 2200 3650
-AR Path="/5E3300F1" Ref="Q?"  Part="1" 
-AR Path="/5E660CB6/5E3300F1" Ref="Q7"  Part="1" 
-F 0 "Q7" H 2388 3703 60  0000 L CNN
-F 1 "MMBT3904-TP" H 2388 3597 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 2400 3850 60  0001 L CNN
-F 3 "http://www.mccsemi.com/up_pdf/MMBT3904(SOT-23).pdf" H 2400 3950 60  0001 L CNN
-F 4 "MMBT3904TPMSCT-ND" H 2400 4050 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT3904-TP" H 2400 4150 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 2400 4250 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 2400 4350 60  0001 L CNN "Family"
-F 8 "http://www.mccsemi.com/up_pdf/MMBT3904(SOT-23).pdf" H 2400 4450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395" H 2400 4550 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.2A SOT23" H 2400 4650 60  0001 L CNN "Description"
-F 11 "Micro Commercial Co" H 2400 4750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2400 4850 60  0001 L CNN "Status"
-	1    2200 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR062
-U 1 1 5E336045
-P 2300 3850
-F 0 "#PWR062" H 2300 3600 50  0001 C CNN
-F 1 "GND" H 2305 3677 50  0000 C CNN
-F 2 "" H 2300 3850 50  0001 C CNN
-F 3 "" H 2300 3850 50  0001 C CNN
-	1    2300 3850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 3350 2300 3450
 Wire Wire Line
 	2300 3350 2950 3350
-$Comp
-L Device:R R34
-U 1 1 5E3378B5
-P 1850 3650
-F 0 "R34" H 1920 3696 50  0000 L CNN
-F 1 "1k" H 1920 3605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1780 3650 50  0001 C CNN
-F 3 "~" H 1850 3650 50  0001 C CNN
-	1    1850 3650
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	1500 3650 1700 3650
 Wire Wire Line
 	7400 3350 7750 3350
 Connection ~ 7100 3750
