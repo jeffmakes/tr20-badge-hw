@@ -25,8 +25,8 @@ P 5950 2450
 AR Path="/5DCCFB81" Ref="J?"  Part="1" 
 AR Path="/5DCC33E4/5DCCFB81" Ref="J7"  Part="1" 
 F 0 "J7" H 6000 2757 50  0000 C CNN
-F 1 "M20-7870246" H 6000 2666 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5950 2450 50  0001 C CNN
+F 1 "2x03-socket-2.54-through-board" H 6000 2666 50  0000 C CNN
+F 2 "jeffmakes-footprints:PinSocket_2x03_P2.54mm_Through-Board-Mating" H 5950 2450 50  0001 C CNN
 F 3 "~" H 5950 2450 50  0001 C CNN
 F 4 "SAO.69" H 6000 2200 50  0000 C CNN "purpose"
 	1    5950 2450
