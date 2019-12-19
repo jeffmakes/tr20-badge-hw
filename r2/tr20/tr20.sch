@@ -1011,17 +1011,21 @@ F 3 "~" H 4550 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Sheet
-S 9550 2000 800  900 
+S 9550 2050 800  1300
 U 5E0E2EA7
 F0 "io_expander" 50
 F1 "_io_expander.sch" 50
-F2 "SCL" I L 9550 2100 50 
-F3 "SDA" B L 9550 2200 50 
-F4 "BTN_INT" O L 9550 2350 50 
-F5 "P1_3" B L 9550 2800 50 
-F6 "P1_2" B L 9550 2700 50 
-F7 "P1_1" B L 9550 2600 50 
-F8 "P1_0" B L 9550 2500 50 
+F2 "SCL" I L 9550 2150 50 
+F3 "SDA" B L 9550 2250 50 
+F4 "BTN_INT" O L 9550 2400 50 
+F5 "P1_3" B L 9550 2850 50 
+F6 "P1_2" B L 9550 2750 50 
+F7 "P1_1" B L 9550 2650 50 
+F8 "P1_0" B L 9550 2550 50 
+F9 "P1_4" B L 9550 2950 50 
+F10 "P1_5" B L 9550 3050 50 
+F11 "P1_6" B L 9550 3150 50 
+F12 "P1_7" B L 9550 3250 50 
 $EndSheet
 $Sheet
 S 9550 1300 800  500 
@@ -1044,14 +1048,6 @@ F4 "~DC~" I L 7700 3300 50
 F5 "~CS~" I L 7700 3200 50 
 F6 "SCK" I L 7700 3100 50 
 F7 "MOSI" I L 7700 3000 50 
-$EndSheet
-$Sheet
-S 9550 5050 800  300 
-U 5E660CB6
-F0 "leds" 50
-F1 "_leds.sch" 50
-F2 "DIN" I L 9550 5150 50 
-F3 "DOUT" O L 9550 5250 50 
 $EndSheet
 Wire Wire Line
 	7700 2350 7250 2350
@@ -1106,42 +1102,38 @@ Text Label 7250 3300 0    50   ~ 0
 Text Label 7250 3450 0    50   ~ 0
 DISP_BUSY
 Wire Wire Line
-	9550 5150 9100 5150
-Text Label 9100 5150 0    50   ~ 0
-LED_DIN
+	9100 2150 9550 2150
 Wire Wire Line
-	9100 2100 9550 2100
+	9100 2250 9550 2250
 Wire Wire Line
-	9100 2200 9550 2200
-Wire Wire Line
-	9100 2350 9550 2350
-Text Label 9100 2100 0    50   ~ 0
+	9100 2400 9550 2400
+Text Label 9100 2150 0    50   ~ 0
 SCL
-Text Label 9100 2200 0    50   ~ 0
+Text Label 9100 2250 0    50   ~ 0
 SDA
-Text Label 9100 2350 0    50   ~ 0
+Text Label 9100 2400 0    50   ~ 0
 BTN_INT
 $Sheet
-S 9550 3100 800  550 
+S 9550 3600 800  550 
 U 5F626FCC
 F0 "touchpad" 50
 F1 "_touchpad.sch" 50
-F2 "SDA" B L 9550 3300 50 
-F3 "SCL" I L 9550 3200 50 
-F4 "RDY" O L 9550 3450 50 
-F5 "NRST" I L 9550 3550 50 
+F2 "SDA" B L 9550 3800 50 
+F3 "SCL" I L 9550 3700 50 
+F4 "RDY" O L 9550 3950 50 
+F5 "NRST" I L 9550 4050 50 
 $EndSheet
 Wire Wire Line
-	9550 3200 9100 3200
+	9550 3700 9100 3700
 Wire Wire Line
-	9100 3300 9550 3300
-Text Label 9100 3200 0    50   ~ 0
+	9100 3800 9550 3800
+Text Label 9100 3700 0    50   ~ 0
 SCL
-Text Label 9100 3300 0    50   ~ 0
+Text Label 9100 3800 0    50   ~ 0
 SDA
 Wire Wire Line
-	9100 3450 9550 3450
-Text Label 9100 3450 0    50   ~ 0
+	9100 3950 9550 3950
+Text Label 9100 3950 0    50   ~ 0
 IQ_RDY
 Wire Wire Line
 	3800 1950 4350 1950
@@ -1204,31 +1196,32 @@ IQ_RDY
 Text Label 3950 2550 0    50   ~ 0
 BTN_INT
 $Sheet
-S 7700 4600 800  500 
+S 7700 4700 800  500 
 U 5DCC33E4
 F0 "shitty_addon" 50
 F1 "_shitty_addon.sch" 50
-F2 "SDA" B L 7700 4800 50 
-F3 "SCL" I L 7700 4700 50 
-F4 "GPIO1" B L 7700 4900 50 
-F5 "GPIO2" B L 7700 5000 50 
+F2 "SDA" B L 7700 4900 50 
+F3 "SCL" I L 7700 4800 50 
+F4 "GPIO1" B L 7700 5000 50 
+F5 "GPIO2" B L 7700 5100 50 
 $EndSheet
 Wire Wire Line
-	7700 4700 7250 4700
+	7700 4800 7250 4800
 Wire Wire Line
-	7750 4800 7250 4800
-Text Label 7250 4700 0    50   ~ 0
-SCL
+	7750 4900 7250 4900
 Text Label 7250 4800 0    50   ~ 0
+SCL
+Text Label 7250 4900 0    50   ~ 0
 SDA
 $Sheet
-S 7700 3900 800  400 
+S 7700 3900 800  550 
 U 5DD6A7F2
 F0 "audio" 50
 F1 "_audio.sch" 50
 F2 "I2S_WS" I L 7700 4000 50 
 F3 "I2S_SD" I L 7700 4100 50 
 F4 "I2S_SCK" I L 7700 4200 50 
+F5 "AMP_EN" I L 7700 4350 50 
 $EndSheet
 Wire Wire Line
 	7700 4000 7250 4000
@@ -1243,157 +1236,216 @@ I2S_SD
 Text Label 7250 4200 0    50   ~ 0
 I2S_SCK
 $Sheet
-S 9550 4000 800  750 
+S 9550 4400 800  750 
 U 5DDB5F59
 F0 "radio" 50
 F1 "_radio.sch" 50
-F2 "MOSI" I L 9550 4250 50 
-F3 "MISO" O L 9550 4350 50 
-F4 "~CS" I L 9550 4550 50 
-F5 "SCK" I L 9550 4450 50 
-F6 "~RESET" I L 9550 4100 50 
-F7 "GPIO0" O L 9550 4650 50 
+F2 "MOSI" I L 9550 4650 50 
+F3 "MISO" O L 9550 4750 50 
+F4 "~CS" I L 9550 4950 50 
+F5 "SCK" I L 9550 4850 50 
+F6 "~RESET" I L 9550 4500 50 
+F7 "GPIO0" O L 9550 5050 50 
 $EndSheet
-Wire Wire Line
-	9550 4250 9100 4250
-Wire Wire Line
-	9550 4350 9100 4350
-Wire Wire Line
-	9550 4450 9100 4450
-Wire Wire Line
-	9550 4550 9100 4550
-Text Label 9100 4250 0    50   ~ 0
-MOSI
-Text Label 9100 4350 0    50   ~ 0
-MISO
-Text Label 9100 4450 0    50   ~ 0
-SCK
-Text Label 9100 4550 0    50   ~ 0
-~CC_CS~
-Wire Wire Line
-	9550 5850 9100 5850
-Text Label 9100 5850 0    50   ~ 0
-SDA
-Text Label 9100 5750 0    50   ~ 0
-SCL
-$Sheet
-S 9550 5650 800  300 
-U 5E2194BA
-F0 "haptic" 50
-F1 "_haptic.sch" 50
-F2 "SDA" I L 9550 5850 50 
-F3 "SCL" I L 9550 5750 50 
-$EndSheet
-Wire Wire Line
-	9550 5750 9100 5750
 Wire Wire Line
 	9550 4650 9100 4650
+Wire Wire Line
+	9550 4750 9100 4750
+Wire Wire Line
+	9550 4850 9100 4850
+Wire Wire Line
+	9550 4950 9100 4950
 Text Label 9100 4650 0    50   ~ 0
+MOSI
+Text Label 9100 4750 0    50   ~ 0
+MISO
+Text Label 9100 4850 0    50   ~ 0
+SCK
+Text Label 9100 4950 0    50   ~ 0
+~CC_CS~
+Wire Wire Line
+	9550 5050 9100 5050
+Text Label 9100 5050 0    50   ~ 0
 CC_INT
 Wire Wire Line
-	9550 5250 9100 5250
-Text Label 9100 5250 0    50   ~ 0
+	7250 5000 7700 5000
+Text Label 7250 5000 0    50   ~ 0
 LED_DOUT
 Wire Wire Line
-	7250 4900 7700 4900
-Text Label 7250 4900 0    50   ~ 0
-LED_DOUT
+	9550 2550 9100 2550
 Wire Wire Line
-	9550 2500 9100 2500
+	9550 2650 9100 2650
 Wire Wire Line
-	9550 2600 9100 2600
+	9550 2750 9100 2750
 Wire Wire Line
-	9550 2700 9100 2700
-Wire Wire Line
-	9550 2800 9100 2800
-Text Label 9100 2500 0    50   ~ 0
+	9550 2850 9100 2850
+Text Label 9100 2550 0    50   ~ 0
 CC_RESET
-Text Label 9100 2600 0    50   ~ 0
+Text Label 9100 2650 0    50   ~ 0
 IQ_RESET
-Text Label 9100 2700 0    50   ~ 0
+Text Label 9100 2750 0    50   ~ 0
 SD_DETECT
-Text Label 9100 2800 0    50   ~ 0
+Text Label 9100 2850 0    50   ~ 0
 SAO_GPIO2
 Wire Wire Line
 	9100 1700 9550 1700
 Text Label 9100 1700 0    50   ~ 0
 SD_DETECT
 Wire Wire Line
-	9100 3550 9550 3550
+	9100 4050 9550 4050
 Wire Wire Line
-	9100 4100 9550 4100
-Text Label 9100 4100 0    50   ~ 0
+	9100 4500 9550 4500
+Text Label 9100 4500 0    50   ~ 0
 CC_RESET
-Text Label 9100 3550 0    50   ~ 0
+Text Label 9100 4050 0    50   ~ 0
 IQ_RESET
 Wire Wire Line
-	7250 5000 7700 5000
-Text Label 7250 5000 0    50   ~ 0
+	7250 5100 7700 5100
+Text Label 7250 5100 0    50   ~ 0
 SAO_GPIO2
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5DE28069
-P 7250 5750
-F 0 "FID1" H 7335 5796 50  0000 L CNN
-F 1 "Fiducial" H 7335 5705 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7250 5750 50  0001 C CNN
-F 3 "~" H 7250 5750 50  0001 C CNN
-	1    7250 5750
+P 600 600
+F 0 "FID1" H 685 646 50  0000 L CNN
+F 1 "Fiducial" H 685 555 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 600 600 50  0001 C CNN
+F 3 "~" H 600 600 50  0001 C CNN
+	1    600  600 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 5DE33C25
-P 7250 5950
-F 0 "FID2" H 7335 5996 50  0000 L CNN
-F 1 "Fiducial" H 7335 5905 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7250 5950 50  0001 C CNN
-F 3 "~" H 7250 5950 50  0001 C CNN
-	1    7250 5950
+P 600 800
+F 0 "FID2" H 685 846 50  0000 L CNN
+F 1 "Fiducial" H 685 755 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 600 800 50  0001 C CNN
+F 3 "~" H 600 800 50  0001 C CNN
+	1    600  800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5DE36EE2
-P 7250 6150
-F 0 "FID3" H 7335 6196 50  0000 L CNN
-F 1 "Fiducial" H 7335 6105 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7250 6150 50  0001 C CNN
-F 3 "~" H 7250 6150 50  0001 C CNN
-	1    7250 6150
+P 600 1000
+F 0 "FID3" H 685 1046 50  0000 L CNN
+F 1 "Fiducial" H 685 955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 600 1000 50  0001 C CNN
+F 3 "~" H 600 1000 50  0001 C CNN
+	1    600  1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5DE37CE0
-P 7750 5750
-F 0 "FID4" H 7835 5796 50  0000 L CNN
-F 1 "Fiducial" H 7835 5705 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7750 5750 50  0001 C CNN
-F 3 "~" H 7750 5750 50  0001 C CNN
-	1    7750 5750
+P 1100 600
+F 0 "FID4" H 1185 646 50  0000 L CNN
+F 1 "Fiducial" H 1185 555 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1100 600 50  0001 C CNN
+F 3 "~" H 1100 600 50  0001 C CNN
+	1    1100 600 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID5
 U 1 1 5DE39A64
-P 7750 5950
-F 0 "FID5" H 7835 5996 50  0000 L CNN
-F 1 "Fiducial" H 7835 5905 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7750 5950 50  0001 C CNN
-F 3 "~" H 7750 5950 50  0001 C CNN
-	1    7750 5950
+P 1100 800
+F 0 "FID5" H 1185 846 50  0000 L CNN
+F 1 "Fiducial" H 1185 755 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1100 800 50  0001 C CNN
+F 3 "~" H 1100 800 50  0001 C CNN
+	1    1100 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID6
 U 1 1 5DE3AF4E
-P 7750 6150
-F 0 "FID6" H 7835 6196 50  0000 L CNN
-F 1 "Fiducial" H 7835 6105 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7750 6150 50  0001 C CNN
-F 3 "~" H 7750 6150 50  0001 C CNN
-	1    7750 6150
+P 1100 1000
+F 0 "FID6" H 1185 1046 50  0000 L CNN
+F 1 "Fiducial" H 1185 955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1100 1000 50  0001 C CNN
+F 3 "~" H 1100 1000 50  0001 C CNN
+	1    1100 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7700 4350 7250 4350
+Text Label 7250 4350 0    50   ~ 0
+AMP_EN
+$Comp
+L Connector:TestPoint TP35
+U 1 1 5DEC98A8
+P 9250 3050
+F 0 "TP35" V 9204 3238 50  0000 L CNN
+F 1 "~" V 9295 3238 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9450 3050 50  0001 C CNN
+F 3 "~" H 9450 3050 50  0001 C CNN
+	1    9250 3050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP36
+U 1 1 5DECA4C9
+P 9250 3150
+F 0 "TP36" V 9204 3338 50  0000 L CNN
+F 1 "~" V 9295 3338 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9450 3150 50  0001 C CNN
+F 3 "~" H 9450 3150 50  0001 C CNN
+	1    9250 3150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP37
+U 1 1 5DECAD34
+P 9250 3250
+F 0 "TP37" V 9204 3438 50  0000 L CNN
+F 1 "~" V 9295 3438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9450 3250 50  0001 C CNN
+F 3 "~" H 9450 3250 50  0001 C CNN
+	1    9250 3250
+	0    -1   1    0   
+$EndComp
+Text Label 7250 5650 0    50   ~ 0
+LED_DOUT
+Wire Wire Line
+	7700 5650 7250 5650
+Wire Wire Line
+	9550 5550 9100 5550
+$Sheet
+S 9550 5450 800  300 
+U 5E2194BA
+F0 "haptic" 50
+F1 "_haptic.sch" 50
+F2 "SDA" I L 9550 5650 50 
+F3 "SCL" I L 9550 5550 50 
+$EndSheet
+Text Label 9100 5550 0    50   ~ 0
+SCL
+Text Label 9100 5650 0    50   ~ 0
+SDA
+Wire Wire Line
+	9550 5650 9100 5650
+Text Label 7250 5550 0    50   ~ 0
+LED_DIN
+Wire Wire Line
+	7700 5550 7250 5550
+$Sheet
+S 7700 5450 800  300 
+U 5E660CB6
+F0 "leds" 50
+F1 "_leds.sch" 50
+F2 "DIN" I L 7700 5550 50 
+F3 "DOUT" O L 7700 5650 50 
+$EndSheet
+Wire Wire Line
+	9550 2950 9100 2950
+Wire Wire Line
+	9550 3050 9250 3050
+Wire Wire Line
+	9550 3150 9250 3150
+Wire Wire Line
+	9550 3250 9250 3250
+Text Label 9100 2950 0    50   ~ 0
+AMP_EN
 $EndSCHEMATC
