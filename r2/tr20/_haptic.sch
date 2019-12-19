@@ -145,17 +145,6 @@ F 3 "" H 5100 3900 50  0001 C CNN
 	1    5100 3900
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 5E22DEED
-P 6600 3800
-F 0 "J9" H 6680 3792 50  0000 L CNN
-F 1 "532610271" H 6680 3701 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 6600 3800 50  0001 C CNN
-F 3 "~" H 6600 3800 50  0001 C CNN
-	1    6600 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6050 3700 6300 3700
 Wire Wire Line
@@ -168,4 +157,15 @@ Wire Wire Line
 	6300 4050 6300 3900
 Wire Wire Line
 	6300 3900 6400 3900
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5E22DEED
+P 6600 3900
+F 0 "J9" H 6680 3892 50  0000 L CNN
+F 1 "532610271" H 6680 3801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 6600 3900 50  0001 C CNN
+F 3 "~" H 6600 3900 50  0001 C CNN
+	1    6600 3900
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
