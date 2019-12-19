@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 12
+Sheet 9 12
 Title ""
 Date ""
 Rev ""
@@ -768,4 +768,15 @@ Text HLabel 6300 4150 0    50   Input ~ 0
 AMP_EN
 Wire Wire Line
 	6300 4150 6600 4150
+$Comp
+L power:GND #PWR?
+U 1 1 5DFB3D9D
+P 7000 4750
+F 0 "#PWR?" H 7000 4500 50  0001 C CNN
+F 1 "GND" V 7000 4550 50  0000 C CNN
+F 2 "" H 7000 4750 50  0001 C CNN
+F 3 "" H 7000 4750 50  0001 C CNN
+	1    7000 4750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
