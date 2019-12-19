@@ -1,14 +1,5 @@
 - Add X-Ray Challenge
-- Keyboard silk
-- Validate placement data
-- Review paste data to confirm USB-C tag soldering
-- USB-C CC pins for type-C to type-C cable use
-- Move EDP FPC slot
-- USB-A change to low profile
-- SAO connector through-board type
-- LED level translator
 
-- Antenna testing - Tom?
 
 
 Testing:
@@ -18,10 +9,11 @@ Display : OK
 Radio : Configuration works, tx *might* work, but not confirmed. No RF activity seen
 Touch : OK
 Haptics: OK
-Sound : Audio output via synth, but analogue performance unknown
+Sound : Fail. Some deep mystery.
 ESP32 : OK
 SD : OK 
 Buttons, joystick : OK
 LEDs : OK : TODO: buy some SK6812's?
 Charging : OK 
 SAO connector : OK 
+Antenna testing : Tom?
