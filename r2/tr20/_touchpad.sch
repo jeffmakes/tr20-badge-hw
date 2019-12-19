@@ -451,37 +451,17 @@ Text Label 6550 3850 0    50   ~ 0
 Rx8A
 Wire Wire Line
 	6500 3850 6750 3850
-NoConn ~ 2650 4900
-NoConn ~ 2650 5000
-NoConn ~ 2650 5100
-NoConn ~ 2650 5200
-NoConn ~ 2150 5100
-$Comp
-L power:+3.3V #PWR0120
-U 1 1 5DEFA05A
-P 1800 4800
-F 0 "#PWR0120" H 1800 4650 50  0001 C CNN
-F 1 "+3.3V" H 1815 4973 50  0000 C CNN
-F 2 "" H 1800 4800 50  0001 C CNN
-F 3 "" H 1800 4800 50  0001 C CNN
-	1    1800 4800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 5DEFA068
-P 1900 5400
-F 0 "#PWR0121" H 1900 5150 50  0001 C CNN
-F 1 "GND" H 1905 5227 50  0000 C CNN
-F 2 "" H 1900 5400 50  0001 C CNN
-F 3 "" H 1900 5400 50  0001 C CNN
-	1    1900 5400
-	1    0    0    -1  
+P 2650 5300
+F 0 "#PWR0121" H 2650 5050 50  0001 C CNN
+F 1 "GND" H 2655 5127 50  0000 C CNN
+F 2 "" H 2650 5300 50  0001 C CNN
+F 3 "" H 2650 5300 50  0001 C CNN
+	1    2650 5300
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2150 5000 1800 5000
-Wire Wire Line
-	1800 5000 1800 4800
 Wire Wire Line
 	2150 5200 1550 5200
 Wire Wire Line
@@ -491,26 +471,22 @@ SDA
 Text Label 1550 5300 0    50   ~ 0
 SCL
 Wire Wire Line
-	2650 5300 3000 5300
-Text Label 2750 5300 0    50   ~ 0
+	2650 5200 3000 5200
+Text Label 2750 5200 0    50   ~ 0
 IQ_RDY
-Text Notes 1750 4500 0    50   ~ 0
+Text Notes 1750 4950 0    50   ~ 0
 IQS550 programming / test header
-Wire Wire Line
-	1900 5400 1900 4900
-Wire Wire Line
-	1900 4900 2150 4900
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J6
+L Connector_Generic:Conn_02x02_Odd_Even J6
 U 1 1 5DEFA081
-P 2350 5100
-F 0 "J6" H 2400 5517 50  0000 C CNN
-F 1 "3020-10-0300-00" H 2400 5426 50  0000 C CNN
-F 2 "jeffmakes-footprints:IDC-Header_2x05_P2.54mm_Vertical_SMD" H 2350 5100 50  0001 C CNN
-F 3 "~" H 2350 5100 50  0001 C CNN
-F 4 "3020-10-0300-00" H 2400 4800 50  0000 C CNN "MPN"
-F 5 "CNC Tech" H 2350 5100 50  0001 C CNN "Manufacturer"
-	1    2350 5100
+P 2350 5200
+F 0 "J6" H 2400 5350 50  0000 C CNN
+F 1 "3020-10-0300-00" H 2400 4950 50  0000 C CNN
+F 2 "jeffmakes-footprints:IDC-Header_2x05_P2.54mm_Vertical_SMD" H 2350 5200 50  0001 C CNN
+F 3 "~" H 2350 5200 50  0001 C CNN
+F 4 "" H 2400 4900 50  0000 C CNN "MPN"
+F 5 "" H 2350 5200 50  0001 C CNN "Manufacturer"
+	1    2350 5200
 	1    0    0    -1  
 $EndComp
 Text Label 7150 4800 0    50   ~ 0
