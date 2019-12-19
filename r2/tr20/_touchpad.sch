@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 7 12
 Title ""
 Date ""
 Rev ""
@@ -481,7 +481,7 @@ L Connector_Generic:Conn_02x02_Odd_Even J6
 U 1 1 5DEFA081
 P 2350 5200
 F 0 "J6" H 2400 5350 50  0000 C CNN
-F 1 "3020-10-0300-00" H 2400 4950 50  0000 C CNN
+F 1 "DNP" H 2400 4950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 2350 5200 50  0001 C CNN
 F 3 "~" H 2350 5200 50  0001 C CNN
 F 4 "" H 2400 4900 50  0000 C CNN "MPN"
