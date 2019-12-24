@@ -1,0 +1,76 @@
+References,Quantity Per PCB,Value,Rating,Manufacturer,MPN,Description,Footprint
+A1,1,ESP32-WROVER-I,,,,,ESP32-WROVER-I
+C47,1,1.5nF,,,,Unpolarized capacitor,C_0402_1005Metric
+C3 C5 C11 C25 C26 C27 C28 C29 C30 C31 C34 C38 C41 C42 C75,15,100nF,,,,Unpolarized capacitor,C_0402_1005Metric
+C32 C35 C49,3,100pF,,,,Unpolarized capacitor,C_0402_1005Metric
+C48 C66,2,10nF,,,,Unpolarized capacitor,C_0402_1005Metric
+C1 C2 C45 C46 C52,5,15pF,,,,Unpolarized capacitor,C_0402_1005Metric
+C55 C72,2,1pF,,,,Unpolarized capacitor,C_0402_1005Metric
+C6 C7 C8 C9 C10 C15 C16 C17 C18 C19 C20 C21 C22 C23 C24 C33 C36 C39 C40 C43 C44 C73 C74,23,1uF,50V,,,Unpolarized capacitor,C_0603_1608Metric
+C57,1,2.2pF,,,,Unpolarized capacitor,C_0402_1005Metric
+C68,1,220nF,,,,Unpolarized capacitor,C_0402_1005Metric
+C4 C12,2,22uF,,,,Unpolarized capacitor,C_0603_1608Metric
+C54 C60,2,3.3pF,,,,Unpolarized capacitor,C_0402_1005Metric
+C50,1,33pF,,,,Unpolarized capacitor,C_0402_1005Metric
+C61,1,3pF,,,,Unpolarized capacitor,C_0402_1005Metric
+C13 C14,2,4.7uF,,,,Unpolarized capacitor,C_0805_2012Metric
+C51 C53 C56 C58 C59 C62 C63 C65 C67 C69 C71,11,47nF,,,,Unpolarized capacitor,C_0402_1005Metric
+D5 D6 D7 D11 D12 D17 D18 D19 D20 D21,10, ESD5Z6.0T5G,,,ESD5Z5.0VC,Bidirectional transient-voltage-suppression diode,SOD-523-numbered-pads
+D1,1,Green,,Lite-On Inc.,LTST-C150KGKT,LED GREEN CLEAR 1206 SMD,1206
+D2,1,Orange,,Lite-On Inc.,LTST-C150KSKT,LED YELLOW CLEAR 1206 SMD,1206
+D3 D8 D9 D10,4,SS13FL,,,,Schottky diode,D_SOD-123F
+D4,1,Yellow,,Lite-On Inc.,LTST-C150KSKT,LED YELLOW CLEAR 1206 SMD,1206
+J6,1,3020-10-0300-00,,CNC Tech,3020-10-0300-00,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",IDC-Header_2x05_P2.54mm_Vertical_SMD
+J1 J9,2,532610271,,,,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal
+J5,1,AFC07-S24ECA-00,,,,"Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)",AFC07x24-1MP_P0.5mm_Horizontal
+J7,1,M20-7870246,,,,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",PinSocket_2x03_P2.54mm_Vertical
+J10,1,PJ-320D,,,,"Audio Jack, 4 Poles (TRRS)",Jack_3.5mm_PJ320D_Horizontal
+J4,1,TF-15x15,,,,,microSD_HC_Sofng_TF-15
+J3,1,UJ2-AH-1-SMT,,,,,jing-lcsc-C46400
+J2,1,USB-C-12,,,,,jing-usb-c-lcsc-C167321
+L2,1,10nH,,,,Inductor,L_0402_1005Metric
+L1,1,10uH 1A,,,NRS4018T100M,Inductor,L_Taiyo-Yuden_MD-5050
+L3 L6 L8 L9 L10,5,12nH,,,,Inductor,L_0402_1005Metric
+L4,1,15nH,,,,Inductor,L_0402_1005Metric
+L7,1,18nH,,,,Inductor,L_0402_1005Metric
+L5,1,7.5nH,,,,Inductor,L_0402_1005Metric
+LED1 LED2 LED3 LED4 LED5 LED6,6,SK6812,,,,RGB LED with integrated controller,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_no_silk
+Q4 Q5,2,DMG2305UX-13,,Diodes Incorporated,DMG2305UX-13,MOSFET P-CH 20V 4.2A SOT23,SOT-23-3
+Q1 Q2 Q3 Q7,4,MMBT3904-TP,,Micro Commercial Co,MMBT3904-TP,TRANS NPN 40V 0.2A SOT23,SOT-23-3
+Q6,1,SSM3K376R,,,,"0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",SOT-23
+R40,1,0R,,,,Resistor,R_0402_1005Metric
+R38,1,10R,,,,Resistor,R_0402_1005Metric
+R1 R2 R3 R6 R7 R11 R12 R14 R15 R16 R19 R28 R29 R30 R31 R32 R37,17,10k,,,,Resistor,R_0402_1005Metric
+R4 R5 R8 R9 R10 R13 R17 R34 R35,9,1k,,,,Resistor,R_0402_1005Metric
+R33,1,3R,,,,Resistor,R_0402_1005Metric
+R36,1,56k,,,,Resistor,R_0402_1005Metric
+S6,1, JS1400BFQ,,,,,SW_JS1400BFQ-arrows
+S3,1,JS102011SAQN,,,,,SW_SPDT_PCM12
+S1 S2 S4 S5 S7,5,PTS645SM43SMTR92_LFS,,C&K,PTS645SM43SMTR92 LFS,SWITCH TACTILE SPST-NO 0.05A 12V,Switch_Tactile_SMD_6x6mm_PTS645
+U2,1,AP2114H-3_3TRG1,,Diodes Incorporated,AP2114H-3.3TRG1,IC REG LINEAR 3.3V 1A SOT223,SOT-223
+U9,1,CC1200,,,,"Low-Power, High-Performance RF Transceiver, QFN-32",QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
+U3,1,CP2102N-A01-GQFN24,,,,"USB to UART master bridge, QFN-24",QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+U10,1,DRV2605LDGS,,,,,VSSOP-10_3x3mm_P0.5mm
+U5,1,GDEH029A1,,,,,GDEH029A1
+U6,1,IQS550,,,,,QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm
+U1,1,MCP73831T-2ACI_OT,,Microchip Technology,MCP73831T-2ACI/OT,IC CONTROLLR LI-ION 4.2V SOT23-5,SOT-753
+U4,1,PCA9555,,,,,TSSOP-24_4.4x7.8mm_P0.65mm
+U8,1,PCM5100A,,,,"2VRMS DirectPath, 100dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20",TSSOP-20_4.4x6.5mm_P0.65mm
+Y1,1,32.768kHz,,,SSP-T7-F,Two pin crystal,Crystal_SMD_3215-2Pin_3.2x1.5mm
+Y2,1,40Mhz,,,,"Four pin crystal, GND on pins 2 and 4",Crystal_SMD_3225-4Pin_3.2x2.5mm
+
+
+
+
+
+Component Groups:,62
+Component Count:,175
+Fitted Components:,170
+Number of PCBs:,1
+Total components:,170
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,"""default"""
+BoM Date:,Tue 03 Dec 2019 04:31:45 CST
+Schematic Source:,/home/jeff/projects/2019/tr20-badge/repos/tr20-badge-hw/r1/tr20/tr20.sch
+KiCad Version:,Eeschema 5.99.0-unknown-r17145-8bd2765f

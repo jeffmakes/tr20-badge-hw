@@ -1,0 +1,12 @@
+#,Ref,Val,Package,PosX,PosY,Rot,Side
+FID1,Fiducial,Fiducial_1mm_Mask2mm,-35,125.5,0,top,
+FID2,Fiducial,Fiducial_1mm_Mask2mm,41,97,0,top,
+FID3,Fiducial,Fiducial_1mm_Mask2mm,19,23,0,top,
+G***,LOGO,LOGO,3.353,73.972,0,top,
+S4,PTS645SM43SMTR92_LFS,Switch_Tactile_SMD_6x6mm_PTS645,-45.5,119,0,top,
+S5,PTS645SM43SMTR92_LFS,Switch_Tactile_SMD_6x6mm_PTS645,48.6,119,90,top,
+S6,_JS1400BFQ,SW_JS1400BFQ-arrows,-45.8,104.5,90,top,
+S7,PTS645SM43SMTR92_LFS,Switch_Tactile_SMD_6x6mm_PTS645,48.6,105,90,top,
+U5,GDEH029A1,GDEH029A1,0,112,180,top,
+XY1,tr20_touch_array,Touch_Array_TR20,0,0,0,top,
+##,End,,,,,,
