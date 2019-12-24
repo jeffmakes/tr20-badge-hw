@@ -293,7 +293,7 @@ U 1 1 5E48083E
 P 9300 3550
 F 0 "J10" H 8970 3433 50  0000 R CNN
 F 1 "PJ-320D" H 8970 3524 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 9300 3550 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal_strengthening-vias" H 9300 3550 50  0001 C CNN
 F 3 "~" H 9300 3550 50  0001 C CNN
 	1    9300 3550
 	-1   0    0    1   
