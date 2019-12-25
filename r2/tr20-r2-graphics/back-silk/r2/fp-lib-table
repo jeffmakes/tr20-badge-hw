@@ -1,4 +1,0 @@
-
-(fp_lib_table
-  (lib (name "edge-cuts")(type KiCad)(uri "$(KIPRJMOD)/edge-cuts.pretty")(options "")(descr ""))
-)

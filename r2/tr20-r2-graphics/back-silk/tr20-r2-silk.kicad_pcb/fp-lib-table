@@ -1,4 +1,0 @@
-
-(fp_lib_table
-  (lib (name "tr20-r2-bsilk-subtract")(type KiCad)(uri "$(KIPRJMOD)/tr20-r2-bsilk-subtract.pretty")(options "")(descr ""))
-)
