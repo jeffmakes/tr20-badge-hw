@@ -1,6 +1,18 @@
 - Finalise silkscreen - check switch ON/OFF marking. Get right font. - Move LED?
+- PCB fabrication quotes - familiar, UK, Eastern Europe
+- PCB assembly quotes - familiar, UK, Eastern Europe
+- Invoice ERNW with corrected dates
+- Assembly drawing output from Kicad (urgh)
+- Regress to on-plane USB-A connector.
 
-
+Rob call:
+- Parts - getting here
+- Bare boards 
+- Assembly
+- End of line test
+- Validation of R2
+- Budget
+- 
 
 
 Testing:
@@ -11,7 +23,7 @@ Radio : Configuration works, tx *might* work, but not confirmed. No RF activity 
 Touch : OK
 Haptics: OK
 Sound : Fail. Some deep mystery.
-ESP32 : OK
+ESP32 : OK, but it's the 4Mb version
 SD : OK 
 Buttons, joystick : OK
 LEDs : OK : TODO: buy some SK6812's?
