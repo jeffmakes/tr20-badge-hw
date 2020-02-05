@@ -12,11 +12,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 $Comp
 L power:GND #PWR?
@@ -54,7 +49,7 @@ AR Path="/5E18A330" Ref="J?"  Part="1"
 AR Path="/5DFB5AB2/5E18A330" Ref="J3"  Part="1" 
 F 0 "J3" H 2950 5667 50  0000 C CNN
 F 1 "UJ2-AH-1-SMT" H 2950 5576 50  0000 C CNN
-F 2 "jeffmakes-footprints:USB-A-short-body-in-cutout-type" H 2950 5200 50  0001 L BNN
+F 2 "jeffmakes-footprints:USB-A-short-body" H 2950 5200 50  0001 L BNN
 F 3 "Standard A type 4 pin Horizontal 3 µin Plating SMT USB 2.0 Jack" H 2950 5200 50  0001 L BNN
 F 4 "CUI Inc." H 2950 5200 50  0001 L BNN "Field4"
 F 5 "https://www.digikey.com/product-detail/en/cui-inc/UJ2-AH-1-SMT-TR/102-4133-1-ND/6595469?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 2950 5200 50  0001 L BNN "Field5"
