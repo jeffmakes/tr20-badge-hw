@@ -1,9 +1,5 @@
-- Finalise silkscreen - check switch ON/OFF marking. Get right font. - Move LED?
-- PCB fabrication quotes - familiar, UK, Eastern Europe
-- PCB assembly quotes - familiar, UK, Eastern Europe
-- Invoice ERNW with corrected dates
 - Assembly drawing output from Kicad (urgh)
-- Regress to on-plane USB-A connector.
+
 
 Rob call:
 - Parts - getting here
