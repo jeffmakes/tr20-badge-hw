@@ -1,4 +1,5 @@
 EESchema Schematic File Version 5
+LIBS:r2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -498,7 +499,7 @@ U 1 1 5F62887A
 P 4600 4450
 F 0 "D1" H 4600 4650 60  0000 L CNN
 F 1 "Green" H 4000 4750 60  0000 L CNN
-F 2 "digikey-footprints:1206" H 4800 4650 60  0001 L CNN
+F 2 "jeffmakes-footprints:D-1206" H 4800 4650 60  0001 L CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-072/LTST-C150KGKT.pdf" H 4800 4750 60  0001 L CNN
 F 4 "160-1404-1-ND" H 4800 4850 60  0001 L CNN "Digi-Key_PN"
 F 5 "LTST-C150KGKT" H 4800 4950 60  0001 L CNN "MPN"
@@ -519,7 +520,7 @@ U 1 1 5F62887C
 P 7500 4650
 F 0 "D4" V 7352 4828 60  0000 L CNN
 F 1 "Yellow" V 7458 4828 60  0000 L CNN
-F 2 "digikey-footprints:1206" H 7700 4850 60  0001 L CNN
+F 2 "jeffmakes-footprints:D-1206" H 7700 4850 60  0001 L CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0187/LTST-C150KSKT.pdf" H 7700 4950 60  0001 L CNN
 F 4 "160-1406-1-ND" H 7700 5050 60  0001 L CNN "Digi-Key_PN"
 F 5 "LTST-C150KSKT" H 7700 5150 60  0001 L CNN "MPN"
@@ -540,7 +541,7 @@ U 1 1 5F62887D
 P 5200 4350
 F 0 "D2" H 5100 4200 60  0000 R CNN
 F 1 "Orange" H 5700 4100 60  0000 R CNN
-F 2 "digikey-footprints:1206" H 5400 4550 60  0001 L CNN
+F 2 "jeffmakes-footprints:D-1206" H 5400 4550 60  0001 L CNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS-22-99-0187/LTST-C150KSKT.pdf" H 5400 4650 60  0001 L CNN
 F 4 "160-1406-1-ND" H 5400 4750 60  0001 L CNN "Digi-Key_PN"
 F 5 "LTST-C150KSKT" H 5400 4850 60  0001 L CNN "MPN"
