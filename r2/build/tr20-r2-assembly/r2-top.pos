@@ -1,0 +1,16 @@
+### Module positions - created on Sat 08 Feb 2020 18:03:50 GMT ###
+### Printed by Pcbnew version 6.0.0-unknown-r16647.959a4bdde.fc31
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                               PosX       PosY       Rot  Side
+FID1      Fiducial              Fiducial_1mm_Mask2mm              -48.0000   129.4000    0.0000  top
+FID2      Fiducial              Fiducial_1mm_Mask2mm               41.0000    97.0000    0.0000  top
+FID3      Fiducial              Fiducial_1mm_Mask2mm               19.0000    23.0000    0.0000  top
+G***      LOGO                  LOGO                               -2.3360    72.6424    0.0000  top
+S4        PTS645SM43SMTR92_LFS  Switch_Tactile_SMD_6x6mm_PTS645   -47.2500   119.0000   90.0000  top
+S5        PTS645SM43SMTR92_LFS  Switch_Tactile_SMD_6x6mm_PTS645    47.0000   119.0000  270.0000  top
+S6        _JS1400BFQ            SW_JS1400BFQ-arrows               -47.2500   105.8000    0.0000  top
+S7        PTS645SM43SMTR92_LFS  Switch_Tactile_SMD_6x6mm_PTS645    47.0000   105.0000   90.0000  top
+U5        GDEH029A1             GDEH029A1                           0.0000   110.5000  180.0000  top
+XY1       tr20_touch_array      Touch_Array_TR20                    0.0000     0.0000    0.0000  top
+## End
