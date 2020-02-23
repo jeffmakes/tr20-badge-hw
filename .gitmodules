@@ -6,7 +6,7 @@
 	url = git@git.monad.is:tr20/digikey-kicad-library.git
 [submodule "lib/kicad-symbols"]
 	path = lib/kicad-symbols
-	url = git@github.com:KiCad/kicad-symbols.git
+	url = git@git.monad.is:tr20/kicad-symbols.git
 [submodule "lib/kicad-footprints"]
 	path = lib/kicad-footprints
 	url = git@github.com:KiCad/kicad-footprints.git
