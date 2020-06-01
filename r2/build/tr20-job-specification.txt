@@ -1,0 +1,29 @@
+PCB specification
+-----------------
+Material: 4-layer, 1.6mm, FR4, ENIG finish
+Soldermask: matte black colour, tented vias.
+Silkscreen: gloss black.
+
+Stack-up
+--------
+F.Cu - top side
+In1.Cu - inner 1 (power)
+In2.Cu - inner 2 (gnd)
+B.Cu - bottom side
+
+Assembly
+--------
+Top SMT
+Bottom SMT
+No THT parts.
+
+Contact
+-------
+
+Invoice to:
+Jeff Gough
+Monad Gottfried Ltd.
+3 Essex Park Mews, London
+purchase@monad.is
++447903005844
+
